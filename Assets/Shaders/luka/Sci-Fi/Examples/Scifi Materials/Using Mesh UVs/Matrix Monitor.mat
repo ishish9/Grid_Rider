@@ -1,0 +1,165 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Matrix Monitor
+  m_Shader: {fileID: 4800000, guid: 0c2f9537c751b4769a3d6f14267a7083, type: 3}
+  m_ShaderKeywords: _KEYWORD_PATTERN_HONEYCOMB _KEYWORD_USE_MONITOR _KEYWORD_USE_PROJECTION_UV
+    _KEYWORD_USE_SCIFI_WIDTH _KEYWORD_USE_TRANSPARENT_BACKGROUND _KEYWORD_WAVE_SCANLINE
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 238a04f45289c4763bf14f09d387571d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ScifiTex:
+        m_Texture: {fileID: 2800000, guid: e3bf20762f18d4df39e0d4395ce24ed6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _BumpScale: 1
+    - _Culling: 0
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 0
+    - _FadeAway: 0
+    - _FadeAwayEnd: 20
+    - _FadeAwayStart: 15
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _MTBrighten: 0
+    - _MTDarken: 0
+    - _MTGlossiness: 32
+    - _MTRimPower: 0.7
+    - _MTRimThreshold: 0.1
+    - _MTUseLighting: 1
+    - _Metallic: 0
+    - _Mode: 0
+    - _NormalMapIntensity: 1
+    - _NormalMapScale: 1
+    - _NormalsToggle: 0
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _ScifiEmission: 0
+    - _ScifiEmissionAmount: 0
+    - _ScifiMonitor: 1
+    - _ScifiMonitorApply: 2
+    - _ScifiMonitorBlend: 1
+    - _ScifiMonitorDistance: 1
+    - _ScifiMonitorScale: 50
+    - _ScifiOpacity: 1
+    - _ScifiProjection: 0
+    - _ScifiTPPan: 0
+    - _ScifiTPPanX: 0
+    - _ScifiTPPanY: 0
+    - _ScifiTPPanZ: 0
+    - _ScifiTPRotate: 0
+    - _ScifiTPRotateSpeed: 0
+    - _ScifiTPScaleX: 1
+    - _ScifiTPScaleY: 1
+    - _ScifiTPScaleZ: 1
+    - _ScifiTPThreshold: 0.25
+    - _ScifiTexAmount: 9
+    - _ScifiTexBackgroundColorStyle: 1
+    - _ScifiTexBackgroundRainbowBri: 1
+    - _ScifiTexBackgroundRainbowHue: 1
+    - _ScifiTexBackgroundRainbowSat: 1
+    - _ScifiTexBackgroundRainbowSpeed: 1
+    - _ScifiTexCell: 1.1
+    - _ScifiTexColorStyle: 0
+    - _ScifiTexOffset: 0
+    - _ScifiTexPattern: 0
+    - _ScifiTexRainbowBri: 1
+    - _ScifiTexRainbowHue: 1
+    - _ScifiTexRainbowSat: 1
+    - _ScifiTexRainbowSpeed: 1
+    - _ScifiTexWidth: 2.85
+    - _ScifiUVOffsetX: 0
+    - _ScifiUVOffsetY: 0
+    - _ScifiUVRotate: 0
+    - _ScifiUVRotateSpeed: 0
+    - _ScifiUVScaleX: 1
+    - _ScifiUVScaleY: 1
+    - _ScifiUVScroll: 0
+    - _ScifiUVScrollX: 0
+    - _ScifiUVScrollY: 0
+    - _ScifiWaveNoiseScale: 0.5
+    - _ScifiWavesOpacity: 0
+    - _ScifiWavesOpacityHigher: 1.2
+    - _ScifiWavesOpacityLower: 0.2
+    - _ScifiWavesPixelation: 0.85
+    - _ScifiWavesRotation: 90
+    - _ScifiWavesRotationSpeed: 0
+    - _ScifiWavesSize: 0.2
+    - _ScifiWavesSpeed: 0.5
+    - _ScifiWavesStyle: 5
+    - _ScifiWavesUV: 0
+    - _ScifiWavesWidth: 1
+    - _ScifiWavesWidthHigher: 1.2
+    - _ScifiWavesWidthLower: 0
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _UVSec: 0
+    - _ZWrite: 1
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _MTAmbientColor: {r: 0.35, g: 0.35, b: 0.35, a: 1}
+    - _MTColor: {r: 1, g: 1, b: 1, a: 1}
+    - _MTRimColor: {r: 1, g: 1, b: 1, a: 1}
+    - _MTSpecularColor: {r: 0.95, g: 0.95, b: 0.95, a: 1}
+    - _ScifiEmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _ScifiTexBackgroundColor: {r: 0, g: 0, b: 0, a: 1}
+    - _ScifiTexBackgroundColorTwo: {r: 0, g: 0, b: 1, a: 1}
+    - _ScifiTexColorOne: {r: 0.047889307, g: 1, b: 0.0047169924, a: 1}
+    - _ScifiTexColorTwo: {r: 0, g: 0, b: 1, a: 1}

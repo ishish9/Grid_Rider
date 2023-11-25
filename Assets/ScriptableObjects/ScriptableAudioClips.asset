@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90ad4028b4037b34dbb59989ea16bd5c, type: 3}
+  m_Name: ScriptableAudioClips
+  m_EditorClassIdentifier: 
+  Move: {fileID: 8300000, guid: cf1f05f6058e5804f9face48082892b1, type: 3}
+  ReachedEnd: {fileID: 8300000, guid: 4273f09704bebd94497b08951ac4987a, type: 3}
+  Hover: {fileID: 8300000, guid: c83e7428a1ac24d4d9d5e9d5aff5939c, type: 3}
+  Rotate: {fileID: 8300000, guid: 748c1d608e599e0489a52eda25173d59, type: 3}
+  Collision: {fileID: 8300000, guid: eaef38fd04fe44840978a297fcb4c90e, type: 3}
+  Jump: {fileID: 8300000, guid: 67fc13c57a6c52947a4de15035a59d43, type: 3}
+  ShotFired: {fileID: 8300000, guid: dbafcffd67afd3a4fba50c9ba0c8cc18, type: 3}
+  BulletImpact: {fileID: 8300000, guid: 6c557d6b4c4b38448896b64147d1a394, type: 3}
+  BarrierHit: {fileID: 8300000, guid: 17767640202a1454bb056a8a05a10d6e, type: 3}
+  BarrierDestroyed: {fileID: 8300000, guid: 08d48ac1c5bb30449a11551f5c5c1474, type: 3}
+  BarrierDestroyedMiniGame: {fileID: 8300000, guid: fdaef56912c6f834e84ec55002b35a20,
+    type: 3}
+  GetClockClip: {fileID: 8300000, guid: 1917a0f2f6668f54a897a004a90e3289, type: 3}
+  GetClockEffect: {fileID: 275151289982795850, guid: 5c6c83fe4be6ba845883ea0ffc4a9ce9,
+    type: 3}
+  ClockTimeCustom: 0

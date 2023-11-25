@@ -2,6 +2,20 @@
 #
 # Get latest from https://github.com/github/gitignore/blob/main/Unity.gitignore
 #
+/[Aa]ssets/AllIn1VfxToolkit
+/[Aa]ssets/Amazing Assets
+/[Aa]ssets/Animation_Decoration
+/[Aa]ssets/Everything Bundle
+/[Aa]ssets/ExternalDependencyManager
+/[Aa]ssets/SCI-FI UI Pack Pro
+/[Aa]ssets/DynamicMeshCutter
+/[Aa]ssets/GoogleMobileAds
+/[Aa]ssets/LootLockerSDK
+/[Aa]ssets/DynamicMeshCutter
+
+
+
+
 /[Ll]ibrary/
 /[Tt]emp/
 /[Oo]bj/
@@ -60,6 +74,9 @@ sysinfo.txt
 *.aab
 *.unitypackage
 *.app
+*.mp3
+*.cpp
+*.dll
 
 # Crashlytics generated file
 crashlytics-build.properties
