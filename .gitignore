@@ -12,10 +12,17 @@
 /[Aa]ssets/GoogleMobileAds
 /[Aa]ssets/LootLockerSDK
 /[Aa]ssets/DynamicMeshCutter
+/[Aa]ssets/Plugins
+/[Aa]ssets/Shaders
+/[Aa]ssets/TutorialInfo
+/[Aa]ssets/TextMesh Pro
 
 
 
 
+
+
+/[Gg]ridRiderTest_BackUpThisFolder_ButDontShipItWithYourGame/
 /[Ll]ibrary/
 /[Tt]emp/
 /[Oo]bj/
