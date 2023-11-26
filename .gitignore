@@ -84,6 +84,7 @@ sysinfo.txt
 *.mp3
 *.cpp
 *.dll
+*.keystore
 
 # Crashlytics generated file
 crashlytics-build.properties
