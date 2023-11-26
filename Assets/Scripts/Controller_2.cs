@@ -8,7 +8,6 @@ public class Controller_2 : MonoBehaviour
     [SerializeField] private AudioClips ScriptableAudioClips;
     [SerializeField] private Score script1;
     [SerializeField] private CameraControls script2;
-    [SerializeField] private GameObject Prefab;
     private float Projectilespeed = 20f;
     private bool MovementAllowed = true;
     public int MovementStep = 0;
@@ -55,7 +54,7 @@ public class Controller_2 : MonoBehaviour
         if (WeaponEnabled)
         {
             AudioManager.Instance.PlaySoundEffects(ScriptableAudioClips.ShotFired);
-            GameObject bulletPool = ObjectPool.instance.GetPooledObject();
+            GameObject bulletPool = ObjectPool.instance.GetPooledObjectBullets();
             if (bulletPool != null)
             {
                 bulletPool.transform.position = transform.position;
@@ -70,7 +69,7 @@ public class Controller_2 : MonoBehaviour
         if (WeaponEnabled)
         {
             AudioManager.Instance.PlaySoundEffects(ScriptableAudioClips.ShotFired);
-            GameObject bulletPool = ObjectPool.instance.GetPooledObject();
+            GameObject bulletPool = ObjectPool.instance.GetPooledObjectBullets();
             if (bulletPool != null)
             {
                 bulletPool.transform.position = transform.position;

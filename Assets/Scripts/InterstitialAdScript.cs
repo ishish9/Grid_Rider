@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using GoogleMobileAds;
 using GoogleMobileAds.Api;
+using UnityEngine.XR;
 
 public class InterstitialAdScript : MonoBehaviour
 {
@@ -57,6 +58,9 @@ public class InterstitialAdScript : MonoBehaviour
         {
             Debug.Log("Showing interstitial ad.");
             interstitialAd.Show();
+            // 768x1024(Clone)
+
+
         }
         else
         {

@@ -7,13 +7,11 @@ public class Bullet : MonoBehaviour
  
     private void OnTriggerEnter(Collider hitbox)
     {
-        //Destroy(gameObject, 5f);
         if (hitbox.gameObject.CompareTag("CubeWall"))
         {
             AudioManager.Instance.PlaySoundEffects(ScriptableAudioClips.BulletImpact);
             Instantiate(bulletexplode, transform.position, Quaternion.identity);
             gameObject.SetActive(false);
-            //Destroy(gameObject);
         }
 
         if (hitbox.gameObject.CompareTag("CubeCollect"))
@@ -21,7 +19,6 @@ public class Bullet : MonoBehaviour
             AudioManager.Instance.PlaySoundEffects(ScriptableAudioClips.BulletImpact);
             Instantiate(bulletexplode, transform.position, Quaternion.identity);
             gameObject.SetActive(false);
-            //Destroy(gameObject);
         }
     }   
 }

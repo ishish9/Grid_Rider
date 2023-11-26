@@ -6,7 +6,6 @@ public class Controller : MonoBehaviour
     [SerializeField] private float ForwardSpeed;
     [SerializeField] private float RestartSpeed;
     [SerializeField] private AudioClips ScriptableAudioClips;
-    [SerializeField] private GameObject Prefab;
     private float Projectilespeed = 20f;
     [SerializeField] private float ProjectilespeedCustom;
     private bool MovementAllowed = true;
@@ -130,7 +129,7 @@ public class Controller : MonoBehaviour
         if (WeaponEnabled)
         {
             AudioManager.Instance.PlaySoundEffects(ScriptableAudioClips.ShotFired);
-            GameObject bulletPool = ObjectPool.instance.GetPooledObject();
+            GameObject bulletPool = ObjectPool.instance.GetPooledObjectBullets();
             if (bulletPool != null)
             {
                 bulletPool.transform.position = transform.position;

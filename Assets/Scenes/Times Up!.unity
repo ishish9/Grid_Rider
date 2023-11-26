@@ -63881,7 +63881,7 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 35071
+    rgba: 4278225151
   m_fontColor: {r: 1, g: 0.5352167, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -65090,6 +65090,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   FX: {fileID: 3365853034859445910, guid: 5203fa119706a664e8eefc9330ccd8a0, type: 3}
+  Bullet: {fileID: 6194122435550956449, guid: 14f49d3a317ff87499b994e85e2bdfc2, type: 3}
+  isBulletPool: 1
 --- !u!4 &1753950192
 Transform:
   m_ObjectHideFlags: 0
