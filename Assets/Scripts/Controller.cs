@@ -114,8 +114,14 @@ public class Controller : MonoBehaviour
         if (WeaponEnabled)
         {
             AudioManager.Instance.PlaySoundEffects(ScriptableAudioClips.ShotFired);
-            var bullet = Instantiate(Prefab, transform.position, Quaternion.identity);
-            bullet.GetComponent<Rigidbody>().velocity = transform.forward * Projectilespeed;
+            GameObject bulletPool = ObjectPool.instance.GetPooledObjectBullets();
+            if (bulletPool != null)
+            {
+                bulletPool.transform.position = transform.position;
+                bulletPool.SetActive(true);
+                bulletPool.GetComponent<Rigidbody>().velocity = transform.forward * Projectilespeed;
+            }
+            //bullet.GetComponent<Rigidbody>().velocity = transform.forward * Projectilespeed;
         }
     }
     // FireWeapon for on screen button
@@ -124,9 +130,14 @@ public class Controller : MonoBehaviour
         if (WeaponEnabled)
         {
             AudioManager.Instance.PlaySoundEffects(ScriptableAudioClips.ShotFired);
-            var bullet = Instantiate(Prefab, transform.position, Quaternion.identity);
-            bullet.GetComponent<Rigidbody>().velocity = transform.forward * Projectilespeed;
-        }
+            GameObject bulletPool = ObjectPool.instance.GetPooledObject();
+            if (bulletPool != null)
+            {
+                bulletPool.transform.position = transform.position;
+                bulletPool.SetActive(true);
+                bulletPool.GetComponent<Rigidbody>().velocity = transform.forward * Projectilespeed;
+            }
+        }        
     }
 
     void Update()

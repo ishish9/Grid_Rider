@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Bullet : MonoBehaviour
@@ -9,19 +7,21 @@ public class Bullet : MonoBehaviour
  
     private void OnTriggerEnter(Collider hitbox)
     {
-        Destroy(gameObject, 5f);
+        //Destroy(gameObject, 5f);
         if (hitbox.gameObject.CompareTag("CubeWall"))
         {
             AudioManager.Instance.PlaySoundEffects(ScriptableAudioClips.BulletImpact);
             Instantiate(bulletexplode, transform.position, Quaternion.identity);
-            Destroy(gameObject);
+            gameObject.SetActive(false);
+            //Destroy(gameObject);
         }
 
         if (hitbox.gameObject.CompareTag("CubeCollect"))
         {
             AudioManager.Instance.PlaySoundEffects(ScriptableAudioClips.BulletImpact);
             Instantiate(bulletexplode, transform.position, Quaternion.identity);
-            Destroy(gameObject);
+            gameObject.SetActive(false);
+            //Destroy(gameObject);
         }
-    }
+    }   
 }

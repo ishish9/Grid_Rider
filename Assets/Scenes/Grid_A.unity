@@ -73103,8 +73103,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 222
-  m_fontSizeBase: 222
+  m_fontSize: 220
+  m_fontSizeBase: 220
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -74878,6 +74878,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   FX: {fileID: 3365853034859445910, guid: 5203fa119706a664e8eefc9330ccd8a0, type: 3}
+  Bullet: {fileID: 6194122435550956449, guid: 14f49d3a317ff87499b994e85e2bdfc2, type: 3}
+  isBulletPool: 1
 --- !u!4 &1753950192
 Transform:
   m_ObjectHideFlags: 0
@@ -81472,7 +81474,7 @@ MonoBehaviour:
   ProjectilespeedCustom: 0
   MovementStep: 0
   isLevel_F: 0
-  WeaponEnabled: 1
+  WeaponEnabled: 0
   CustomProjectileSpeed: 0
 --- !u!54 &1941844121
 Rigidbody:

@@ -78790,6 +78790,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   FX: {fileID: 3365853034859445910, guid: c6567e4c4f32c564e899218449baf624, type: 3}
+  Bullet: {fileID: 6194122435550956449, guid: 14f49d3a317ff87499b994e85e2bdfc2, type: 3}
+  isBulletPool: 1
 --- !u!4 &1753950192
 Transform:
   m_ObjectHideFlags: 0

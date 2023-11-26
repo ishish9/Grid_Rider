@@ -55,9 +55,32 @@ public class Controller_2 : MonoBehaviour
         if (WeaponEnabled)
         {
             AudioManager.Instance.PlaySoundEffects(ScriptableAudioClips.ShotFired);
-            var bullet = Instantiate(Prefab, transform.position, Quaternion.identity);
-            bullet.GetComponent<Rigidbody>().velocity = transform.forward * Projectilespeed;
+            GameObject bulletPool = ObjectPool.instance.GetPooledObject();
+            if (bulletPool != null)
+            {
+                bulletPool.transform.position = transform.position;
+                bulletPool.SetActive(true);
+                bulletPool.GetComponent<Rigidbody>().velocity = transform.forward * Projectilespeed;
+            }
         }
+    }
+
+    public void FireButton()
+    {
+        if (WeaponEnabled)
+        {
+            AudioManager.Instance.PlaySoundEffects(ScriptableAudioClips.ShotFired);
+            GameObject bulletPool = ObjectPool.instance.GetPooledObject();
+            if (bulletPool != null)
+            {
+                bulletPool.transform.position = transform.position;
+                bulletPool.SetActive(true);
+                bulletPool.GetComponent<Rigidbody>().velocity = transform.forward * Projectilespeed;
+            }
+        }
+        //AudioManager.Instance.PlaySoundEffects(ScriptableAudioClips.ShotFired);
+        //var bullet = Instantiate(Prefab, transform.position, Quaternion.identity);
+        //bullet.GetComponent<Rigidbody>().velocity = transform.forward * Projectilespeed;
     }
 
     void Update()
@@ -704,13 +727,6 @@ public class Controller_2 : MonoBehaviour
                 AudioManager.Instance.PlaySoundEffects(ScriptableAudioClips.Move);
                 break;
         }
-    }
-
-    public void Shoot()
-    {
-        AudioManager.Instance.PlaySoundEffects(ScriptableAudioClips.ShotFired);
-        var bullet = Instantiate(Prefab, transform.position, Quaternion.identity);
-        bullet.GetComponent<Rigidbody>().velocity = transform.forward * Projectilespeed;
     }
 
     public void StartPlayer()
