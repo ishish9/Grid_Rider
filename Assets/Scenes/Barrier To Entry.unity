@@ -1694,6 +1694,7 @@ MonoBehaviour:
   BarrierDestroyedEffect: {fileID: 5332894256555974852, guid: a97016a149079dd4abbb2b4b4038cb28,
     type: 3}
   BarrierColor: Red
+  BarrierBusterMiniGame: 0
 --- !u!1 &30394409
 GameObject:
   m_ObjectHideFlags: 0
@@ -2231,6 +2232,7 @@ MonoBehaviour:
   BarrierDestroyedEffect: {fileID: 5332894256555974852, guid: a97016a149079dd4abbb2b4b4038cb28,
     type: 3}
   BarrierColor: Red
+  BarrierBusterMiniGame: 0
 --- !u!1 &40749295
 GameObject:
   m_ObjectHideFlags: 0
@@ -2815,6 +2817,7 @@ MonoBehaviour:
   BarrierDestroyedEffect: {fileID: 5332894256555974852, guid: a97016a149079dd4abbb2b4b4038cb28,
     type: 3}
   BarrierColor: Red
+  BarrierBusterMiniGame: 0
 --- !u!1 &53719454
 GameObject:
   m_ObjectHideFlags: 0
@@ -3077,6 +3080,7 @@ MonoBehaviour:
   BarrierDestroyedEffect: {fileID: 5332894256555974852, guid: a97016a149079dd4abbb2b4b4038cb28,
     type: 3}
   BarrierColor: Orange
+  BarrierBusterMiniGame: 0
 --- !u!1 &55837609
 GameObject:
   m_ObjectHideFlags: 0
@@ -4359,6 +4363,7 @@ MonoBehaviour:
   BarrierDestroyedEffect: {fileID: 5332894256555974852, guid: a97016a149079dd4abbb2b4b4038cb28,
     type: 3}
   BarrierColor: Green
+  BarrierBusterMiniGame: 0
 --- !u!1 &112372914
 GameObject:
   m_ObjectHideFlags: 0
@@ -5065,6 +5070,7 @@ MonoBehaviour:
   BarrierDestroyedEffect: {fileID: 5332894256555974852, guid: a97016a149079dd4abbb2b4b4038cb28,
     type: 3}
   BarrierColor: Red
+  BarrierBusterMiniGame: 0
 --- !u!1 &143427391
 GameObject:
   m_ObjectHideFlags: 0
@@ -5206,6 +5212,7 @@ MonoBehaviour:
   BarrierDestroyedEffect: {fileID: 5332894256555974852, guid: a97016a149079dd4abbb2b4b4038cb28,
     type: 3}
   BarrierColor: Yellow
+  BarrierBusterMiniGame: 0
 --- !u!1 &149580557
 GameObject:
   m_ObjectHideFlags: 0
@@ -6371,6 +6378,7 @@ MonoBehaviour:
   BarrierDestroyedEffect: {fileID: 5332894256555974852, guid: a97016a149079dd4abbb2b4b4038cb28,
     type: 3}
   BarrierColor: Green
+  BarrierBusterMiniGame: 0
 --- !u!1 &185740312
 GameObject:
   m_ObjectHideFlags: 0
@@ -7517,6 +7525,7 @@ MonoBehaviour:
   BarrierDestroyedEffect: {fileID: 5332894256555974852, guid: a97016a149079dd4abbb2b4b4038cb28,
     type: 3}
   BarrierColor: Red
+  BarrierBusterMiniGame: 0
 --- !u!1 &233913404
 GameObject:
   m_ObjectHideFlags: 0
@@ -8351,6 +8360,7 @@ MonoBehaviour:
   BarrierDestroyedEffect: {fileID: 5332894256555974852, guid: a97016a149079dd4abbb2b4b4038cb28,
     type: 3}
   BarrierColor: Red
+  BarrierBusterMiniGame: 0
 --- !u!1 &249526821
 GameObject:
   m_ObjectHideFlags: 0
@@ -8817,6 +8827,7 @@ MonoBehaviour:
   BarrierDestroyedEffect: {fileID: 5332894256555974852, guid: a97016a149079dd4abbb2b4b4038cb28,
     type: 3}
   BarrierColor: Yellow
+  BarrierBusterMiniGame: 0
 --- !u!1 &271924469
 GameObject:
   m_ObjectHideFlags: 0
@@ -9603,6 +9614,7 @@ MonoBehaviour:
   BarrierDestroyedEffect: {fileID: 5332894256555974852, guid: a97016a149079dd4abbb2b4b4038cb28,
     type: 3}
   BarrierColor: Red
+  BarrierBusterMiniGame: 0
 --- !u!1 &287636105
 GameObject:
   m_ObjectHideFlags: 0
@@ -10721,6 +10733,7 @@ MonoBehaviour:
   BarrierDestroyedEffect: {fileID: 5332894256555974852, guid: a97016a149079dd4abbb2b4b4038cb28,
     type: 3}
   BarrierColor: Orange
+  BarrierBusterMiniGame: 0
 --- !u!1 &319129304
 GameObject:
   m_ObjectHideFlags: 0
@@ -10945,6 +10958,7 @@ MonoBehaviour:
   BarrierDestroyedEffect: {fileID: 5332894256555974852, guid: a97016a149079dd4abbb2b4b4038cb28,
     type: 3}
   BarrierColor: Red
+  BarrierBusterMiniGame: 0
 --- !u!1 &324899368
 GameObject:
   m_ObjectHideFlags: 0
@@ -11441,6 +11455,7 @@ MonoBehaviour:
   BarrierDestroyedEffect: {fileID: 5332894256555974852, guid: a97016a149079dd4abbb2b4b4038cb28,
     type: 3}
   BarrierColor: Red
+  BarrierBusterMiniGame: 0
 --- !u!1 &338138053
 GameObject:
   m_ObjectHideFlags: 0
@@ -12060,6 +12075,7 @@ MonoBehaviour:
   BarrierDestroyedEffect: {fileID: 5332894256555974852, guid: a97016a149079dd4abbb2b4b4038cb28,
     type: 3}
   BarrierColor: Green
+  BarrierBusterMiniGame: 0
 --- !u!1 &346052518
 GameObject:
   m_ObjectHideFlags: 0
@@ -13470,6 +13486,7 @@ MonoBehaviour:
   BarrierDestroyedEffect: {fileID: 5332894256555974852, guid: a97016a149079dd4abbb2b4b4038cb28,
     type: 3}
   BarrierColor: Red
+  BarrierBusterMiniGame: 0
 --- !u!1 &390109249
 GameObject:
   m_ObjectHideFlags: 0
@@ -15133,6 +15150,7 @@ MonoBehaviour:
   BarrierDestroyedEffect: {fileID: 5332894256555974852, guid: a97016a149079dd4abbb2b4b4038cb28,
     type: 3}
   BarrierColor: Orange
+  BarrierBusterMiniGame: 0
 --- !u!1 &431957341
 GameObject:
   m_ObjectHideFlags: 0
@@ -24646,6 +24664,7 @@ MonoBehaviour:
   BarrierDestroyedEffect: {fileID: 5332894256555974852, guid: a97016a149079dd4abbb2b4b4038cb28,
     type: 3}
   BarrierColor: Red
+  BarrierBusterMiniGame: 0
 --- !u!1 &594717951
 GameObject:
   m_ObjectHideFlags: 0
@@ -25262,6 +25281,7 @@ MonoBehaviour:
   BarrierDestroyedEffect: {fileID: 5332894256555974852, guid: a97016a149079dd4abbb2b4b4038cb28,
     type: 3}
   BarrierColor: Yellow
+  BarrierBusterMiniGame: 0
 --- !u!1 &604369066
 GameObject:
   m_ObjectHideFlags: 0
@@ -26429,6 +26449,7 @@ MonoBehaviour:
   BarrierDestroyedEffect: {fileID: 5332894256555974852, guid: a97016a149079dd4abbb2b4b4038cb28,
     type: 3}
   BarrierColor: Orange
+  BarrierBusterMiniGame: 0
 --- !u!1 &629182942
 GameObject:
   m_ObjectHideFlags: 0
@@ -30491,6 +30512,7 @@ MonoBehaviour:
   BarrierDestroyedEffect: {fileID: 5332894256555974852, guid: a97016a149079dd4abbb2b4b4038cb28,
     type: 3}
   BarrierColor: Green
+  BarrierBusterMiniGame: 0
 --- !u!1 &734180795
 GameObject:
   m_ObjectHideFlags: 0
@@ -31659,6 +31681,7 @@ MonoBehaviour:
   BarrierDestroyedEffect: {fileID: 5332894256555974852, guid: a97016a149079dd4abbb2b4b4038cb28,
     type: 3}
   BarrierColor: Red
+  BarrierBusterMiniGame: 0
 --- !u!1 &768867328
 GameObject:
   m_ObjectHideFlags: 0
@@ -36182,6 +36205,7 @@ MonoBehaviour:
   BarrierDestroyedEffect: {fileID: 5332894256555974852, guid: a97016a149079dd4abbb2b4b4038cb28,
     type: 3}
   BarrierColor: Red
+  BarrierBusterMiniGame: 0
 --- !u!1 &877052279
 GameObject:
   m_ObjectHideFlags: 0
@@ -36323,6 +36347,7 @@ MonoBehaviour:
   BarrierDestroyedEffect: {fileID: 5332894256555974852, guid: a97016a149079dd4abbb2b4b4038cb28,
     type: 3}
   BarrierColor: Purple
+  BarrierBusterMiniGame: 0
 --- !u!1 &881788519
 GameObject:
   m_ObjectHideFlags: 0
@@ -37316,6 +37341,7 @@ MonoBehaviour:
   BarrierDestroyedEffect: {fileID: 5332894256555974852, guid: a97016a149079dd4abbb2b4b4038cb28,
     type: 3}
   BarrierColor: Red
+  BarrierBusterMiniGame: 0
 --- !u!1 &930233063
 GameObject:
   m_ObjectHideFlags: 0
@@ -37575,6 +37601,7 @@ MonoBehaviour:
   BarrierDestroyedEffect: {fileID: 5332894256555974852, guid: a97016a149079dd4abbb2b4b4038cb28,
     type: 3}
   BarrierColor: Red
+  BarrierBusterMiniGame: 0
 --- !u!1 &933042544
 GameObject:
   m_ObjectHideFlags: 0
@@ -40020,6 +40047,7 @@ MonoBehaviour:
   BarrierDestroyedEffect: {fileID: 5332894256555974852, guid: a97016a149079dd4abbb2b4b4038cb28,
     type: 3}
   BarrierColor: Red
+  BarrierBusterMiniGame: 0
 --- !u!1 &995657959
 GameObject:
   m_ObjectHideFlags: 0
@@ -41827,6 +41855,7 @@ MonoBehaviour:
   BarrierDestroyedEffect: {fileID: 5332894256555974852, guid: a97016a149079dd4abbb2b4b4038cb28,
     type: 3}
   BarrierColor: Orange
+  BarrierBusterMiniGame: 0
 --- !u!1 &1048387992
 GameObject:
   m_ObjectHideFlags: 0
@@ -42328,6 +42357,7 @@ MonoBehaviour:
   BarrierDestroyedEffect: {fileID: 5332894256555974852, guid: a97016a149079dd4abbb2b4b4038cb28,
     type: 3}
   BarrierColor: Orange
+  BarrierBusterMiniGame: 0
 --- !u!1 &1051796010
 GameObject:
   m_ObjectHideFlags: 0
@@ -43991,6 +44021,7 @@ MonoBehaviour:
   BarrierDestroyedEffect: {fileID: 5332894256555974852, guid: a97016a149079dd4abbb2b4b4038cb28,
     type: 3}
   BarrierColor: Green
+  BarrierBusterMiniGame: 0
 --- !u!1 &1088896194
 GameObject:
   m_ObjectHideFlags: 0
@@ -45124,6 +45155,7 @@ MonoBehaviour:
   BarrierDestroyedEffect: {fileID: 5332894256555974852, guid: a97016a149079dd4abbb2b4b4038cb28,
     type: 3}
   BarrierColor: Green
+  BarrierBusterMiniGame: 0
 --- !u!1 &1113486749
 GameObject:
   m_ObjectHideFlags: 0
@@ -45991,6 +46023,7 @@ MonoBehaviour:
   BarrierDestroyedEffect: {fileID: 5332894256555974852, guid: a97016a149079dd4abbb2b4b4038cb28,
     type: 3}
   BarrierColor: Red
+  BarrierBusterMiniGame: 0
 --- !u!1 &1124746210
 GameObject:
   m_ObjectHideFlags: 0
@@ -47759,6 +47792,7 @@ MonoBehaviour:
   BarrierDestroyedEffect: {fileID: 5332894256555974852, guid: a97016a149079dd4abbb2b4b4038cb28,
     type: 3}
   BarrierColor: Orange
+  BarrierBusterMiniGame: 0
 --- !u!1 &1158138441
 GameObject:
   m_ObjectHideFlags: 0
@@ -50120,6 +50154,7 @@ MonoBehaviour:
   BarrierDestroyedEffect: {fileID: 5332894256555974852, guid: a97016a149079dd4abbb2b4b4038cb28,
     type: 3}
   BarrierColor: Red
+  BarrierBusterMiniGame: 0
 --- !u!1 &1214092905
 GameObject:
   m_ObjectHideFlags: 0
@@ -50624,6 +50659,7 @@ MonoBehaviour:
   BarrierDestroyedEffect: {fileID: 5332894256555974852, guid: a97016a149079dd4abbb2b4b4038cb28,
     type: 3}
   BarrierColor: Yellow
+  BarrierBusterMiniGame: 0
 --- !u!1 &1224731604
 GameObject:
   m_ObjectHideFlags: 0
@@ -51483,6 +51519,7 @@ MonoBehaviour:
   BarrierDestroyedEffect: {fileID: 5332894256555974852, guid: a97016a149079dd4abbb2b4b4038cb28,
     type: 3}
   BarrierColor: Red
+  BarrierBusterMiniGame: 0
 --- !u!1 &1251982993
 GameObject:
   m_ObjectHideFlags: 0
@@ -53329,6 +53366,7 @@ MonoBehaviour:
   BarrierDestroyedEffect: {fileID: 5332894256555974852, guid: a97016a149079dd4abbb2b4b4038cb28,
     type: 3}
   BarrierColor: Yellow
+  BarrierBusterMiniGame: 0
 --- !u!1 &1299313832
 GameObject:
   m_ObjectHideFlags: 0
@@ -53920,6 +53958,7 @@ MonoBehaviour:
   BarrierDestroyedEffect: {fileID: 5332894256555974852, guid: a97016a149079dd4abbb2b4b4038cb28,
     type: 3}
   BarrierColor: Yellow
+  BarrierBusterMiniGame: 0
 --- !u!1 &1315956959
 GameObject:
   m_ObjectHideFlags: 0
@@ -61665,6 +61704,7 @@ MonoBehaviour:
   BarrierDestroyedEffect: {fileID: 5332894256555974852, guid: a97016a149079dd4abbb2b4b4038cb28,
     type: 3}
   BarrierColor: Orange
+  BarrierBusterMiniGame: 0
 --- !u!1 &1392813942
 GameObject:
   m_ObjectHideFlags: 0
@@ -65331,6 +65371,7 @@ MonoBehaviour:
   BarrierDestroyedEffect: {fileID: 5332894256555974852, guid: a97016a149079dd4abbb2b4b4038cb28,
     type: 3}
   BarrierColor: Red
+  BarrierBusterMiniGame: 0
 --- !u!1 &1487581899
 GameObject:
   m_ObjectHideFlags: 0
@@ -67742,6 +67783,7 @@ MonoBehaviour:
   BarrierDestroyedEffect: {fileID: 5332894256555974852, guid: a97016a149079dd4abbb2b4b4038cb28,
     type: 3}
   BarrierColor: Orange
+  BarrierBusterMiniGame: 0
 --- !u!1 &1592228044
 GameObject:
   m_ObjectHideFlags: 0
@@ -69045,6 +69087,7 @@ MonoBehaviour:
   BarrierDestroyedEffect: {fileID: 5332894256555974852, guid: a97016a149079dd4abbb2b4b4038cb28,
     type: 3}
   BarrierColor: Yellow
+  BarrierBusterMiniGame: 0
 --- !u!1 &1643177031
 GameObject:
   m_ObjectHideFlags: 0
@@ -70237,6 +70280,7 @@ MonoBehaviour:
   BarrierDestroyedEffect: {fileID: 5332894256555974852, guid: a97016a149079dd4abbb2b4b4038cb28,
     type: 3}
   BarrierColor: Red
+  BarrierBusterMiniGame: 0
 --- !u!1 &1669912473
 GameObject:
   m_ObjectHideFlags: 0
@@ -71214,7 +71258,7 @@ MonoBehaviour:
   m_fontColor32:
     serializedVersion: 2
     rgba: 35071
-  m_fontColor: {r: 1, g: 0.5352167, b: 0, a: 0}
+  m_fontColor: {r: 1, g: 0.5352167, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -71281,27 +71325,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1708071365}
   m_CullTransparentMesh: 1
---- !u!95 &1708071369
-Animator:
-  serializedVersion: 5
+--- !u!114 &1708071369
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1708071365}
   m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 30f7c7800d0388a4880028855a9987da, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4a5f8ee0df53224991681d995b33c90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  delayBeforeStart: 0
+  timeBtwChars: 0.05
+  leadingChar: 
+  leadingCharBeforeDelay: 0
 --- !u!1 &1709528839
 GameObject:
   m_ObjectHideFlags: 0
@@ -75805,6 +75844,7 @@ MonoBehaviour:
   BarrierDestroyedEffect: {fileID: 5332894256555974852, guid: a97016a149079dd4abbb2b4b4038cb28,
     type: 3}
   BarrierColor: Red
+  BarrierBusterMiniGame: 0
 --- !u!1 &1835162279
 GameObject:
   m_ObjectHideFlags: 0
@@ -76064,6 +76104,7 @@ MonoBehaviour:
   BarrierDestroyedEffect: {fileID: 5332894256555974852, guid: a97016a149079dd4abbb2b4b4038cb28,
     type: 3}
   BarrierColor: Red
+  BarrierBusterMiniGame: 0
 --- !u!1 &1837415630
 GameObject:
   m_ObjectHideFlags: 0
@@ -77247,6 +77288,7 @@ MonoBehaviour:
   BarrierDestroyedEffect: {fileID: 5332894256555974852, guid: a97016a149079dd4abbb2b4b4038cb28,
     type: 3}
   BarrierColor: Yellow
+  BarrierBusterMiniGame: 0
 --- !u!1 &1898432643
 GameObject:
   m_ObjectHideFlags: 0
@@ -79058,6 +79100,7 @@ MonoBehaviour:
   BarrierDestroyedEffect: {fileID: 5332894256555974852, guid: a97016a149079dd4abbb2b4b4038cb28,
     type: 3}
   BarrierColor: Yellow
+  BarrierBusterMiniGame: 0
 --- !u!1 &1951517888
 GameObject:
   m_ObjectHideFlags: 0
@@ -81237,6 +81280,7 @@ MonoBehaviour:
   BarrierDestroyedEffect: {fileID: 5332894256555974852, guid: a97016a149079dd4abbb2b4b4038cb28,
     type: 3}
   BarrierColor: Red
+  BarrierBusterMiniGame: 0
 --- !u!1 &2012307716
 GameObject:
   m_ObjectHideFlags: 0
@@ -84735,6 +84779,7 @@ MonoBehaviour:
   BarrierDestroyedEffect: {fileID: 5332894256555974852, guid: a97016a149079dd4abbb2b4b4038cb28,
     type: 3}
   BarrierColor: Green
+  BarrierBusterMiniGame: 0
 --- !u!1 &2104085424
 GameObject:
   m_ObjectHideFlags: 0
@@ -85970,6 +86015,7 @@ MonoBehaviour:
   BarrierDestroyedEffect: {fileID: 5332894256555974852, guid: a97016a149079dd4abbb2b4b4038cb28,
     type: 3}
   BarrierColor: Red
+  BarrierBusterMiniGame: 0
 --- !u!1 &2143594191
 GameObject:
   m_ObjectHideFlags: 0
@@ -88363,6 +88409,7 @@ MonoBehaviour:
   BarrierDestroyedEffect: {fileID: 5332894256555974852, guid: a97016a149079dd4abbb2b4b4038cb28,
     type: 3}
   BarrierColor: Green
+  BarrierBusterMiniGame: 0
 --- !u!1 &6872986732224063335
 GameObject:
   m_ObjectHideFlags: 0

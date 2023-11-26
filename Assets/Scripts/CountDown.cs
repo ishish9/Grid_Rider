@@ -64,7 +64,7 @@ public class CountDown : MonoBehaviour
                 {
                     yield return new WaitForSeconds(1.5f);
                     ScoreBoard.SetActive(true);
-                    RestartButton.SetActive(true);
+                    //RestartButton.SetActive(true);
                     script3.AdMobCounter();
                     switch (script3.GetAdCount(0))
                     {

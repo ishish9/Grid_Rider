@@ -83645,7 +83645,7 @@ MonoBehaviour:
   m_fontColor32:
     serializedVersion: 2
     rgba: 35071
-  m_fontColor: {r: 1, g: 0.5352167, b: 0, a: 0}
+  m_fontColor: {r: 1, g: 0.5352167, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -83712,27 +83712,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1708071365}
   m_CullTransparentMesh: 1
---- !u!95 &1708071369
-Animator:
-  serializedVersion: 5
+--- !u!114 &1708071369
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1708071365}
   m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 30f7c7800d0388a4880028855a9987da, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4a5f8ee0df53224991681d995b33c90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  delayBeforeStart: 0
+  timeBtwChars: 0.05
+  leadingChar: 
+  leadingCharBeforeDelay: 0
 --- !u!1 &1709528839
 GameObject:
   m_ObjectHideFlags: 0

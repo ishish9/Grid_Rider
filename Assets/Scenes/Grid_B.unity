@@ -6878,7 +6878,9 @@ MonoBehaviour:
   EnableWarp: {fileID: 664555500}
   DisableWarp1: {fileID: 575180646}
   DisableWarp2: {fileID: 1445518812}
+  SuperSpeedEffect: {fileID: 0}
   Grid_C: 0
+  GridFaster: 0
 --- !u!4 &249329311
 Transform:
   m_ObjectHideFlags: 0
@@ -73531,7 +73533,7 @@ MonoBehaviour:
   m_fontColor32:
     serializedVersion: 2
     rgba: 35071
-  m_fontColor: {r: 1, g: 0.5352167, b: 0, a: 0}
+  m_fontColor: {r: 1, g: 0.5352167, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -73598,27 +73600,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1708071365}
   m_CullTransparentMesh: 1
---- !u!95 &1708071369
-Animator:
-  serializedVersion: 5
+--- !u!114 &1708071369
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1708071365}
   m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 30f7c7800d0388a4880028855a9987da, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4a5f8ee0df53224991681d995b33c90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  delayBeforeStart: 0
+  timeBtwChars: 0.1
+  leadingChar: 
+  leadingCharBeforeDelay: 0
 --- !u!1 &1709528839
 GameObject:
   m_ObjectHideFlags: 0
@@ -78118,7 +78115,9 @@ MonoBehaviour:
   EnableWarp: {fileID: 1445518812}
   DisableWarp1: {fileID: 575180646}
   DisableWarp2: {fileID: 664555500}
+  SuperSpeedEffect: {fileID: 0}
   Grid_C: 0
+  GridFaster: 0
 --- !u!4 &1830683141
 Transform:
   m_ObjectHideFlags: 0
@@ -82808,9 +82807,11 @@ MonoBehaviour:
   ScriptableAudioClips: {fileID: 11400000, guid: 6cb2c5d80d005804a9735b2cb6d652ce,
     type: 2}
   Prefab: {fileID: 0}
+  ProjectilespeedCustom: 0
   MovementStep: 0
   isLevel_F: 0
   WeaponEnabled: 0
+  CustomProjectileSpeed: 0
 --- !u!54 &1941844121
 Rigidbody:
   m_ObjectHideFlags: 0

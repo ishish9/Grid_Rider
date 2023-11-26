@@ -94,18 +94,30 @@ public class Death_Trigger : MonoBehaviour
         if (ABCLevels)
         {
             script2.timeRemaining = 0;
+            StartCoroutine(wait());
+
         }
         else
         {
             script1.timeRemaining = 0;
+            StartCoroutine(wait());
+
         }
-        //AudioManager.Instance.SoundEffectsOff();
         AudioManager.Instance.MusicOff();
-        Restart.SetActive(true);
         Player.enabled = false;
         Player_Core.enabled = false;
         light.SetActive(false);
         Instantiate(Prefab, Player.transform.position, transform.rotation);
-        hits = 0;     
-    }   
+        hits = 0;
+
+    }
+
+    IEnumerator wait()
+    {
+
+        yield return new WaitForSeconds(2.5f);
+        Restart.SetActive(true);
+       
+    }
+
 }
