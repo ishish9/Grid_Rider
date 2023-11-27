@@ -6,18 +6,23 @@ public class Barrier_Spawned : MonoBehaviour
     [SerializeField] private GameObject ImpactBarrierEffect;
     private float TimeBetweenSteps = 1;
     private int stepsTaken;
-    [SerializeField] private ScriptableVariables variables;
     public delegate void Damage(float d);
     public static event Damage OnDamage;
     public delegate void Impact();
     public static event Impact OnImpact;
 
+    private void Start()
+    {
+        Score score = new Score();
+        score.GetScore();
+    }
+
     void Update()
     {
         //Debug.Log(stepsTaken + " Movement");
-        if (variables.TimeBetweenSteps > 0)
+        if (TimeBetweenSteps > 0)
         {
-            variables.TimeBetweenSteps -= Time.deltaTime;
+            TimeBetweenSteps -= Time.deltaTime;
         }
         else
         {
@@ -30,7 +35,7 @@ public class Barrier_Spawned : MonoBehaviour
             Instantiate(ImpactBarrierEffect, transform.position, Quaternion.identity);
             OnImpact();
             OnDamage(20);
-            DestroyObject(gameObject);
+            
         }
     }
 
@@ -41,7 +46,7 @@ public class Barrier_Spawned : MonoBehaviour
     private void Move()
     {
         transform.position += new Vector3(0, 0, -1);
-        variables.TimeBetweenSteps = 1f;
+        TimeBetweenSteps = 1f;
         stepsTaken += 1;
     }
 }

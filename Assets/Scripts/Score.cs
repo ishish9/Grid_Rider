@@ -21,7 +21,14 @@ public class Score : MonoBehaviour
     public int HighScore = 0;
     private int leaderboardID = 12679;
     private string nameSubmit;
+    [SerializeField] private bool BarrierBuster;
+                        
 
+
+    private void Start()
+    {
+        Barrier_Spawned br = new Barrier_Spawned();
+    }
     public void SetHighScoreA()
     {
         HighScore = PlayerPrefs.GetInt("HighScoreA");
@@ -91,6 +98,11 @@ public class Score : MonoBehaviour
     {
         CurrentScore = 0;
         ScoreText.text = CurrentScore.ToString();
+    }
+
+    public int GetScore()
+    {
+        return CurrentScore;
     }
 
     public void ScoreBoard()
