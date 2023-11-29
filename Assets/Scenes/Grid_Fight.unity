@@ -2173,7 +2173,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AddAmount: 1
   CoinCollectedSound: {fileID: 8300000, guid: d7122992de721494a8f30779ca4ed28a, type: 3}
-  script1: {fileID: 2079610145}
 --- !u!1 &42657884
 GameObject:
   m_ObjectHideFlags: 0
@@ -2828,7 +2827,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AddAmount: 1
   CoinCollectedSound: {fileID: 8300000, guid: d7122992de721494a8f30779ca4ed28a, type: 3}
-  script1: {fileID: 2079610145}
 --- !u!1 &59767686
 GameObject:
   m_ObjectHideFlags: 0
@@ -2949,7 +2947,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AddAmount: 1
   CoinCollectedSound: {fileID: 8300000, guid: d7122992de721494a8f30779ca4ed28a, type: 3}
-  script1: {fileID: 2079610145}
 --- !u!1 &68234376
 GameObject:
   m_ObjectHideFlags: 0
@@ -3338,7 +3335,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AddAmount: 1
   CoinCollectedSound: {fileID: 8300000, guid: d7122992de721494a8f30779ca4ed28a, type: 3}
-  script1: {fileID: 2079610145}
 --- !u!1 &70858373
 GameObject:
   m_ObjectHideFlags: 0
@@ -3544,7 +3540,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AddAmount: 1
   CoinCollectedSound: {fileID: 8300000, guid: d7122992de721494a8f30779ca4ed28a, type: 3}
-  script1: {fileID: 2079610145}
 --- !u!1 &79124394
 GameObject:
   m_ObjectHideFlags: 0
@@ -3915,7 +3910,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AddAmount: 1
   CoinCollectedSound: {fileID: 8300000, guid: d7122992de721494a8f30779ca4ed28a, type: 3}
-  script1: {fileID: 2079610145}
 --- !u!1 &85104621
 GameObject:
   m_ObjectHideFlags: 0
@@ -4680,7 +4674,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AddAmount: 1
   CoinCollectedSound: {fileID: 8300000, guid: d7122992de721494a8f30779ca4ed28a, type: 3}
-  script1: {fileID: 2079610145}
 --- !u!1 &110719072
 GameObject:
   m_ObjectHideFlags: 0
@@ -5328,7 +5321,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AddAmount: 1
   CoinCollectedSound: {fileID: 8300000, guid: d7122992de721494a8f30779ca4ed28a, type: 3}
-  script1: {fileID: 2079610145}
 --- !u!1 &136479978
 GameObject:
   m_ObjectHideFlags: 0
@@ -7517,7 +7509,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AddAmount: 1
   CoinCollectedSound: {fileID: 8300000, guid: d7122992de721494a8f30779ca4ed28a, type: 3}
-  script1: {fileID: 2079610145}
 --- !u!1 &225142512
 GameObject:
   m_ObjectHideFlags: 0
@@ -8610,7 +8601,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AddAmount: 1
   CoinCollectedSound: {fileID: 8300000, guid: d7122992de721494a8f30779ca4ed28a, type: 3}
-  script1: {fileID: 2079610145}
 --- !u!1 &283289840
 GameObject:
   m_ObjectHideFlags: 0
@@ -8849,7 +8839,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AddAmount: 1
   CoinCollectedSound: {fileID: 8300000, guid: d7122992de721494a8f30779ca4ed28a, type: 3}
-  script1: {fileID: 2079610145}
 --- !u!1 &284895149
 GameObject:
   m_ObjectHideFlags: 0
@@ -9324,7 +9313,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AddAmount: 1
   CoinCollectedSound: {fileID: 8300000, guid: d7122992de721494a8f30779ca4ed28a, type: 3}
-  script1: {fileID: 2079610145}
 --- !u!1 &292423811
 GameObject:
   m_ObjectHideFlags: 0
@@ -10755,7 +10743,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AddAmount: 1
   CoinCollectedSound: {fileID: 8300000, guid: d7122992de721494a8f30779ca4ed28a, type: 3}
-  script1: {fileID: 2079610145}
 --- !u!1 &328291326
 GameObject:
   m_ObjectHideFlags: 0
@@ -12079,7 +12066,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AddAmount: 1
   CoinCollectedSound: {fileID: 8300000, guid: d7122992de721494a8f30779ca4ed28a, type: 3}
-  script1: {fileID: 2079610145}
 --- !u!1 &354857371
 GameObject:
   m_ObjectHideFlags: 0
@@ -12580,7 +12566,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AddAmount: 1
   CoinCollectedSound: {fileID: 8300000, guid: d7122992de721494a8f30779ca4ed28a, type: 3}
-  script1: {fileID: 2079610145}
 --- !u!1 &372404351
 GameObject:
   m_ObjectHideFlags: 0
@@ -13645,7 +13630,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AddAmount: 1
   CoinCollectedSound: {fileID: 8300000, guid: d7122992de721494a8f30779ca4ed28a, type: 3}
-  script1: {fileID: 2079610145}
 --- !u!1 &401308737
 GameObject:
   m_ObjectHideFlags: 0
@@ -15458,7 +15442,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AddAmount: 1
   CoinCollectedSound: {fileID: 8300000, guid: d7122992de721494a8f30779ca4ed28a, type: 3}
-  script1: {fileID: 2079610145}
 --- !u!1 &479856369
 GameObject:
   m_ObjectHideFlags: 0
@@ -16488,7 +16471,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AddAmount: 1
   CoinCollectedSound: {fileID: 8300000, guid: d7122992de721494a8f30779ca4ed28a, type: 3}
-  script1: {fileID: 2079610145}
 --- !u!1 &528719769
 GameObject:
   m_ObjectHideFlags: 0
@@ -16716,7 +16698,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AddAmount: 1
   CoinCollectedSound: {fileID: 8300000, guid: d7122992de721494a8f30779ca4ed28a, type: 3}
-  script1: {fileID: 2079610145}
 --- !u!1 &531178318
 GameObject:
   m_ObjectHideFlags: 0
@@ -17784,7 +17765,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AddAmount: 1
   CoinCollectedSound: {fileID: 8300000, guid: d7122992de721494a8f30779ca4ed28a, type: 3}
-  script1: {fileID: 2079610145}
 --- !u!1 &566738711
 GameObject:
   m_ObjectHideFlags: 0
@@ -23624,7 +23604,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AddAmount: 1
   CoinCollectedSound: {fileID: 8300000, guid: d7122992de721494a8f30779ca4ed28a, type: 3}
-  script1: {fileID: 2079610145}
 --- !u!1 &589068848
 GameObject:
   m_ObjectHideFlags: 0
@@ -23745,7 +23724,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AddAmount: 1
   CoinCollectedSound: {fileID: 8300000, guid: d7122992de721494a8f30779ca4ed28a, type: 3}
-  script1: {fileID: 2079610145}
 --- !u!1 &590504666
 GameObject:
   m_ObjectHideFlags: 0
@@ -24434,7 +24412,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AddAmount: 1
   CoinCollectedSound: {fileID: 8300000, guid: d7122992de721494a8f30779ca4ed28a, type: 3}
-  script1: {fileID: 2079610145}
 --- !u!1 &605612511
 GameObject:
   m_ObjectHideFlags: 0
@@ -24801,7 +24778,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AddAmount: 1
   CoinCollectedSound: {fileID: 8300000, guid: d7122992de721494a8f30779ca4ed28a, type: 3}
-  script1: {fileID: 2079610145}
 --- !u!1 &610151002
 GameObject:
   m_ObjectHideFlags: 0
@@ -25763,7 +25739,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AddAmount: 1
   CoinCollectedSound: {fileID: 8300000, guid: d7122992de721494a8f30779ca4ed28a, type: 3}
-  script1: {fileID: 2079610145}
 --- !u!1 &639017014
 GameObject:
   m_ObjectHideFlags: 0
@@ -26178,7 +26153,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AddAmount: 1
   CoinCollectedSound: {fileID: 8300000, guid: d7122992de721494a8f30779ca4ed28a, type: 3}
-  script1: {fileID: 2079610145}
 --- !u!1 &653462511
 GameObject:
   m_ObjectHideFlags: 0
@@ -31673,7 +31647,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AddAmount: 1
   CoinCollectedSound: {fileID: 8300000, guid: d7122992de721494a8f30779ca4ed28a, type: 3}
-  script1: {fileID: 2079610145}
 --- !u!1 &670845206
 GameObject:
   m_ObjectHideFlags: 0
@@ -31794,7 +31767,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AddAmount: 1
   CoinCollectedSound: {fileID: 8300000, guid: d7122992de721494a8f30779ca4ed28a, type: 3}
-  script1: {fileID: 2079610145}
 --- !u!1 &671788264
 GameObject:
   m_ObjectHideFlags: 0
@@ -32928,7 +32900,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AddAmount: 1
   CoinCollectedSound: {fileID: 8300000, guid: d7122992de721494a8f30779ca4ed28a, type: 3}
-  script1: {fileID: 2079610145}
 --- !u!1 &715520693
 GameObject:
   m_ObjectHideFlags: 0
@@ -33132,7 +33103,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AddAmount: 1
   CoinCollectedSound: {fileID: 8300000, guid: d7122992de721494a8f30779ca4ed28a, type: 3}
-  script1: {fileID: 2079610145}
 --- !u!1 &722974444
 GameObject:
   m_ObjectHideFlags: 0
@@ -35125,7 +35095,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AddAmount: 1
   CoinCollectedSound: {fileID: 8300000, guid: d7122992de721494a8f30779ca4ed28a, type: 3}
-  script1: {fileID: 2079610145}
 --- !u!1 &770482846
 GameObject:
   m_ObjectHideFlags: 0
@@ -35447,7 +35416,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AddAmount: 1
   CoinCollectedSound: {fileID: 8300000, guid: d7122992de721494a8f30779ca4ed28a, type: 3}
-  script1: {fileID: 2079610145}
 --- !u!1 &789349428
 GameObject:
   m_ObjectHideFlags: 0
@@ -36113,7 +36081,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AddAmount: 1
   CoinCollectedSound: {fileID: 8300000, guid: d7122992de721494a8f30779ca4ed28a, type: 3}
-  script1: {fileID: 2079610145}
 --- !u!1 &801758900
 GameObject:
   m_ObjectHideFlags: 0
@@ -36234,7 +36201,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AddAmount: 1
   CoinCollectedSound: {fileID: 8300000, guid: d7122992de721494a8f30779ca4ed28a, type: 3}
-  script1: {fileID: 2079610145}
 --- !u!1 &804102100
 GameObject:
   m_ObjectHideFlags: 0
@@ -37186,7 +37152,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AddAmount: 1
   CoinCollectedSound: {fileID: 8300000, guid: d7122992de721494a8f30779ca4ed28a, type: 3}
-  script1: {fileID: 2079610145}
 --- !u!1 &828119722
 GameObject:
   m_ObjectHideFlags: 0
@@ -38132,7 +38097,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AddAmount: 1
   CoinCollectedSound: {fileID: 8300000, guid: d7122992de721494a8f30779ca4ed28a, type: 3}
-  script1: {fileID: 2079610145}
 --- !u!1 &857921513
 GameObject:
   m_ObjectHideFlags: 0
@@ -38381,7 +38345,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AddAmount: 1
   CoinCollectedSound: {fileID: 8300000, guid: d7122992de721494a8f30779ca4ed28a, type: 3}
-  script1: {fileID: 2079610145}
 --- !u!1 &866576699
 GameObject:
   m_ObjectHideFlags: 0
@@ -39488,7 +39451,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AddAmount: 1
   CoinCollectedSound: {fileID: 8300000, guid: d7122992de721494a8f30779ca4ed28a, type: 3}
-  script1: {fileID: 2079610145}
 --- !u!1 &911451684
 GameObject:
   m_ObjectHideFlags: 0
@@ -39862,7 +39824,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AddAmount: 1
   CoinCollectedSound: {fileID: 8300000, guid: d7122992de721494a8f30779ca4ed28a, type: 3}
-  script1: {fileID: 2079610145}
 --- !u!1 &925713239
 GameObject:
   m_ObjectHideFlags: 0
@@ -40348,7 +40309,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AddAmount: 1
   CoinCollectedSound: {fileID: 8300000, guid: d7122992de721494a8f30779ca4ed28a, type: 3}
-  script1: {fileID: 2079610145}
 --- !u!1 &942223367
 GameObject:
   m_ObjectHideFlags: 0
@@ -41357,7 +41317,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AddAmount: 1
   CoinCollectedSound: {fileID: 8300000, guid: d7122992de721494a8f30779ca4ed28a, type: 3}
-  script1: {fileID: 2079610145}
 --- !u!1 &983026667
 GameObject:
   m_ObjectHideFlags: 0
@@ -41596,7 +41555,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AddAmount: 1
   CoinCollectedSound: {fileID: 8300000, guid: d7122992de721494a8f30779ca4ed28a, type: 3}
-  script1: {fileID: 2079610145}
 --- !u!1 &984549749
 GameObject:
   m_ObjectHideFlags: 0
@@ -41717,7 +41675,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AddAmount: 1
   CoinCollectedSound: {fileID: 8300000, guid: d7122992de721494a8f30779ca4ed28a, type: 3}
-  script1: {fileID: 2079610145}
 --- !u!1 &986869079
 GameObject:
   m_ObjectHideFlags: 0
@@ -42111,7 +42068,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AddAmount: 1
   CoinCollectedSound: {fileID: 8300000, guid: d7122992de721494a8f30779ca4ed28a, type: 3}
-  script1: {fileID: 2079610145}
 --- !u!1 &997173000
 GameObject:
   m_ObjectHideFlags: 0
@@ -43187,7 +43143,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AddAmount: 1
   CoinCollectedSound: {fileID: 8300000, guid: d7122992de721494a8f30779ca4ed28a, type: 3}
-  script1: {fileID: 2079610145}
 --- !u!1 &1021344565
 GameObject:
   m_ObjectHideFlags: 0
@@ -43471,7 +43426,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AddAmount: 1
   CoinCollectedSound: {fileID: 8300000, guid: d7122992de721494a8f30779ca4ed28a, type: 3}
-  script1: {fileID: 2079610145}
 --- !u!1 &1030984870
 GameObject:
   m_ObjectHideFlags: 0
@@ -43969,7 +43923,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AddAmount: 1
   CoinCollectedSound: {fileID: 8300000, guid: d7122992de721494a8f30779ca4ed28a, type: 3}
-  script1: {fileID: 2079610145}
 --- !u!1 &1044129876
 GameObject:
   m_ObjectHideFlags: 0
@@ -44623,7 +44576,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AddAmount: 1
   CoinCollectedSound: {fileID: 8300000, guid: d7122992de721494a8f30779ca4ed28a, type: 3}
-  script1: {fileID: 2079610145}
 --- !u!1 &1072339742
 GameObject:
   m_ObjectHideFlags: 0
@@ -46170,7 +46122,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AddAmount: 1
   CoinCollectedSound: {fileID: 8300000, guid: d7122992de721494a8f30779ca4ed28a, type: 3}
-  script1: {fileID: 2079610145}
 --- !u!1 &1113486749
 GameObject:
   m_ObjectHideFlags: 0
@@ -46548,7 +46499,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AddAmount: 1
   CoinCollectedSound: {fileID: 8300000, guid: d7122992de721494a8f30779ca4ed28a, type: 3}
-  script1: {fileID: 2079610145}
 --- !u!1 &1122228071
 GameObject:
   m_ObjectHideFlags: 0
@@ -46953,7 +46903,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AddAmount: 1
   CoinCollectedSound: {fileID: 8300000, guid: d7122992de721494a8f30779ca4ed28a, type: 3}
-  script1: {fileID: 2079610145}
 --- !u!1 &1150040206
 GameObject:
   m_ObjectHideFlags: 0
@@ -47157,7 +47106,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AddAmount: 1
   CoinCollectedSound: {fileID: 8300000, guid: d7122992de721494a8f30779ca4ed28a, type: 3}
-  script1: {fileID: 2079610145}
 --- !u!1 &1153995210
 GameObject:
   m_ObjectHideFlags: 0
@@ -47996,7 +47944,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AddAmount: 1
   CoinCollectedSound: {fileID: 8300000, guid: d7122992de721494a8f30779ca4ed28a, type: 3}
-  script1: {fileID: 2079610145}
 --- !u!1 &1167967141
 GameObject:
   m_ObjectHideFlags: 0
@@ -49564,7 +49511,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AddAmount: 1
   CoinCollectedSound: {fileID: 8300000, guid: d7122992de721494a8f30779ca4ed28a, type: 3}
-  script1: {fileID: 2079610145}
 --- !u!1 &1215653527
 GameObject:
   m_ObjectHideFlags: 0
@@ -49685,7 +49631,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AddAmount: 1
   CoinCollectedSound: {fileID: 8300000, guid: d7122992de721494a8f30779ca4ed28a, type: 3}
-  script1: {fileID: 2079610145}
 --- !u!1 &1216289328
 GameObject:
   m_ObjectHideFlags: 0
@@ -49806,7 +49751,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AddAmount: 1
   CoinCollectedSound: {fileID: 8300000, guid: d7122992de721494a8f30779ca4ed28a, type: 3}
-  script1: {fileID: 2079610145}
 --- !u!1 &1216324206
 GameObject:
   m_ObjectHideFlags: 0
@@ -49927,7 +49871,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AddAmount: 1
   CoinCollectedSound: {fileID: 8300000, guid: d7122992de721494a8f30779ca4ed28a, type: 3}
-  script1: {fileID: 2079610145}
 --- !u!1 &1217114302
 GameObject:
   m_ObjectHideFlags: 0
@@ -50496,7 +50439,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AddAmount: 1
   CoinCollectedSound: {fileID: 8300000, guid: d7122992de721494a8f30779ca4ed28a, type: 3}
-  script1: {fileID: 2079610145}
 --- !u!1 &1231455573
 GameObject:
   m_ObjectHideFlags: 0
@@ -51211,7 +51153,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AddAmount: 1
   CoinCollectedSound: {fileID: 8300000, guid: d7122992de721494a8f30779ca4ed28a, type: 3}
-  script1: {fileID: 2079610145}
 --- !u!1 &1251741019
 GameObject:
   m_ObjectHideFlags: 0
@@ -53144,7 +53085,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AddAmount: 1
   CoinCollectedSound: {fileID: 8300000, guid: d7122992de721494a8f30779ca4ed28a, type: 3}
-  script1: {fileID: 2079610145}
 --- !u!1 &1295791449
 GameObject:
   m_ObjectHideFlags: 0
@@ -54157,7 +54097,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AddAmount: 1
   CoinCollectedSound: {fileID: 8300000, guid: d7122992de721494a8f30779ca4ed28a, type: 3}
-  script1: {fileID: 2079610145}
 --- !u!1 &1333013767
 GameObject:
   m_ObjectHideFlags: 0
@@ -54278,7 +54217,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AddAmount: 1
   CoinCollectedSound: {fileID: 8300000, guid: d7122992de721494a8f30779ca4ed28a, type: 3}
-  script1: {fileID: 2079610145}
 --- !u!1 &1334004281
 GameObject:
   m_ObjectHideFlags: 0
@@ -54399,7 +54337,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AddAmount: 1
   CoinCollectedSound: {fileID: 8300000, guid: d7122992de721494a8f30779ca4ed28a, type: 3}
-  script1: {fileID: 2079610145}
 --- !u!1 &1334578147
 GameObject:
   m_ObjectHideFlags: 0
@@ -61365,7 +61302,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AddAmount: 1
   CoinCollectedSound: {fileID: 8300000, guid: d7122992de721494a8f30779ca4ed28a, type: 3}
-  script1: {fileID: 2079610145}
 --- !u!1 &1413422085
 GameObject:
   m_ObjectHideFlags: 0
@@ -61654,7 +61590,7 @@ MonoBehaviour:
   LevelMusic: {fileID: 8300000, guid: ebc0076f51c6f4f4e88cedd4a48eb86f, type: 3}
   qualityLevelLowOBJ: {fileID: 832575517}
   GridNameTitleOBJ: {fileID: 238704038}
-  GridHighSet: D
+  GridName: Fight
   isCountDown2: 1
   isLevelE: 0
 --- !u!4 &1422001787
@@ -67995,7 +67931,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AddAmount: 1
   CoinCollectedSound: {fileID: 8300000, guid: d7122992de721494a8f30779ca4ed28a, type: 3}
-  script1: {fileID: 2079610145}
 --- !u!1 &1456821800
 GameObject:
   m_ObjectHideFlags: 0
@@ -68452,7 +68387,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AddAmount: 1
   CoinCollectedSound: {fileID: 8300000, guid: d7122992de721494a8f30779ca4ed28a, type: 3}
-  script1: {fileID: 2079610145}
 --- !u!1 &1464141432
 GameObject:
   m_ObjectHideFlags: 0
@@ -70198,7 +70132,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AddAmount: 1
   CoinCollectedSound: {fileID: 8300000, guid: d7122992de721494a8f30779ca4ed28a, type: 3}
-  script1: {fileID: 2079610145}
 --- !u!1 &1495961471
 GameObject:
   m_ObjectHideFlags: 0
@@ -71671,7 +71604,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AddAmount: 1
   CoinCollectedSound: {fileID: 8300000, guid: d7122992de721494a8f30779ca4ed28a, type: 3}
-  script1: {fileID: 2079610145}
 --- !u!1 &1540576894
 GameObject:
   m_ObjectHideFlags: 0
@@ -72038,7 +71970,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AddAmount: 1
   CoinCollectedSound: {fileID: 8300000, guid: d7122992de721494a8f30779ca4ed28a, type: 3}
-  script1: {fileID: 2079610145}
 --- !u!1 &1558726537
 GameObject:
   m_ObjectHideFlags: 0
@@ -72492,7 +72423,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AddAmount: 1
   CoinCollectedSound: {fileID: 8300000, guid: d7122992de721494a8f30779ca4ed28a, type: 3}
-  script1: {fileID: 2079610145}
 --- !u!1 &1580428728
 GameObject:
   m_ObjectHideFlags: 0
@@ -73196,7 +73126,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AddAmount: 1
   CoinCollectedSound: {fileID: 8300000, guid: d7122992de721494a8f30779ca4ed28a, type: 3}
-  script1: {fileID: 2079610145}
 --- !u!1 &1594993215
 GameObject:
   m_ObjectHideFlags: 0
@@ -73557,7 +73486,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AddAmount: 1
   CoinCollectedSound: {fileID: 8300000, guid: d7122992de721494a8f30779ca4ed28a, type: 3}
-  script1: {fileID: 2079610145}
 --- !u!1 &1605813539
 GameObject:
   m_ObjectHideFlags: 0
@@ -74534,7 +74462,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AddAmount: 1
   CoinCollectedSound: {fileID: 8300000, guid: d7122992de721494a8f30779ca4ed28a, type: 3}
-  script1: {fileID: 2079610145}
 --- !u!1 &1624349600
 GameObject:
   m_ObjectHideFlags: 0
@@ -75312,7 +75239,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AddAmount: 1
   CoinCollectedSound: {fileID: 8300000, guid: d7122992de721494a8f30779ca4ed28a, type: 3}
-  script1: {fileID: 2079610145}
 --- !u!1 &1655760983
 GameObject:
   m_ObjectHideFlags: 0
@@ -76058,7 +75984,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AddAmount: 1
   CoinCollectedSound: {fileID: 8300000, guid: d7122992de721494a8f30779ca4ed28a, type: 3}
-  script1: {fileID: 2079610145}
 --- !u!1 &1669511222
 GameObject:
   m_ObjectHideFlags: 0
@@ -77011,7 +76936,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AddAmount: 1
   CoinCollectedSound: {fileID: 8300000, guid: d7122992de721494a8f30779ca4ed28a, type: 3}
-  script1: {fileID: 2079610145}
 --- !u!1 &1710610199
 GameObject:
   m_ObjectHideFlags: 0
@@ -77754,7 +77678,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AddAmount: 1
   CoinCollectedSound: {fileID: 8300000, guid: d7122992de721494a8f30779ca4ed28a, type: 3}
-  script1: {fileID: 2079610145}
 --- !u!1 &1726920873
 GameObject:
   m_ObjectHideFlags: 0
@@ -78095,7 +78018,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AddAmount: 1
   CoinCollectedSound: {fileID: 8300000, guid: d7122992de721494a8f30779ca4ed28a, type: 3}
-  script1: {fileID: 2079610145}
 --- !u!1 &1738240080
 GameObject:
   m_ObjectHideFlags: 0
@@ -79494,7 +79416,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AddAmount: 1
   CoinCollectedSound: {fileID: 8300000, guid: d7122992de721494a8f30779ca4ed28a, type: 3}
-  script1: {fileID: 2079610145}
 --- !u!1 &1771649825
 GameObject:
   m_ObjectHideFlags: 0
@@ -80817,7 +80738,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AddAmount: 1
   CoinCollectedSound: {fileID: 8300000, guid: d7122992de721494a8f30779ca4ed28a, type: 3}
-  script1: {fileID: 2079610145}
 --- !u!1 &1795186250
 GameObject:
   m_ObjectHideFlags: 0
@@ -81021,7 +80941,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AddAmount: 1
   CoinCollectedSound: {fileID: 8300000, guid: d7122992de721494a8f30779ca4ed28a, type: 3}
-  script1: {fileID: 2079610145}
 --- !u!1 &1801632664
 GameObject:
   m_ObjectHideFlags: 0
@@ -81142,7 +81061,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AddAmount: 1
   CoinCollectedSound: {fileID: 8300000, guid: d7122992de721494a8f30779ca4ed28a, type: 3}
-  script1: {fileID: 2079610145}
 --- !u!1 &1802970137
 GameObject:
   m_ObjectHideFlags: 0
@@ -81479,7 +81397,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AddAmount: 1
   CoinCollectedSound: {fileID: 8300000, guid: d7122992de721494a8f30779ca4ed28a, type: 3}
-  script1: {fileID: 2079610145}
 --- !u!1 &1817714542
 GameObject:
   m_ObjectHideFlags: 0
@@ -82141,7 +82058,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AddAmount: 1
   CoinCollectedSound: {fileID: 8300000, guid: d7122992de721494a8f30779ca4ed28a, type: 3}
-  script1: {fileID: 2079610145}
 --- !u!1 &1836915513
 GameObject:
   m_ObjectHideFlags: 0
@@ -83126,7 +83042,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AddAmount: 1
   CoinCollectedSound: {fileID: 8300000, guid: d7122992de721494a8f30779ca4ed28a, type: 3}
-  script1: {fileID: 2079610145}
 --- !u!1 &1851942670
 GameObject:
   m_ObjectHideFlags: 0
@@ -83680,7 +83595,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AddAmount: 1
   CoinCollectedSound: {fileID: 8300000, guid: d7122992de721494a8f30779ca4ed28a, type: 3}
-  script1: {fileID: 2079610145}
 --- !u!1 &1880255684
 GameObject:
   m_ObjectHideFlags: 0
@@ -85338,7 +85252,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AddAmount: 1
   CoinCollectedSound: {fileID: 8300000, guid: d7122992de721494a8f30779ca4ed28a, type: 3}
-  script1: {fileID: 2079610145}
 --- !u!1 &1920802113
 GameObject:
   m_ObjectHideFlags: 0
@@ -85578,7 +85491,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AddAmount: 1
   CoinCollectedSound: {fileID: 8300000, guid: d7122992de721494a8f30779ca4ed28a, type: 3}
-  script1: {fileID: 2079610145}
 --- !u!1 &1937005518
 GameObject:
   m_ObjectHideFlags: 0
@@ -86005,7 +85917,6 @@ MonoBehaviour:
     type: 2}
   script1: {fileID: 2079610145}
   script2: {fileID: 330585548}
-  Prefab: {fileID: 6194122435550956449, guid: 14f49d3a317ff87499b994e85e2bdfc2, type: 3}
   MovementStep: 0
   WeaponEnabled: 1
 --- !u!1 &1943536331
@@ -86558,7 +86469,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AddAmount: 1
   CoinCollectedSound: {fileID: 8300000, guid: d7122992de721494a8f30779ca4ed28a, type: 3}
-  script1: {fileID: 2079610145}
 --- !u!1 &1966857436
 GameObject:
   m_ObjectHideFlags: 0
@@ -93736,7 +93646,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AddAmount: 1
   CoinCollectedSound: {fileID: 8300000, guid: d7122992de721494a8f30779ca4ed28a, type: 3}
-  script1: {fileID: 2079610145}
 --- !u!1 &2041093033
 GameObject:
   m_ObjectHideFlags: 0
@@ -95212,7 +95121,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AddAmount: 1
   CoinCollectedSound: {fileID: 8300000, guid: d7122992de721494a8f30779ca4ed28a, type: 3}
-  script1: {fileID: 2079610145}
 --- !u!1 &2074178570
 GameObject:
   m_ObjectHideFlags: 0
@@ -95542,7 +95450,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f497f9c41dc00904b8670e4e51a92949, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ScoreText: {fileID: 911451686}
   SBHigh_Display: {fileID: 2035640983}
   SBHigh_Submit_Display: {fileID: 1457573297}
   SB_Display: {fileID: 2066658091}
@@ -95976,7 +95883,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AddAmount: 1
   CoinCollectedSound: {fileID: 8300000, guid: d7122992de721494a8f30779ca4ed28a, type: 3}
-  script1: {fileID: 2079610145}
 --- !u!1 &2083019143
 GameObject:
   m_ObjectHideFlags: 0
@@ -96788,7 +96694,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AddAmount: 1
   CoinCollectedSound: {fileID: 8300000, guid: d7122992de721494a8f30779ca4ed28a, type: 3}
-  script1: {fileID: 2079610145}
 --- !u!1 &2108611214
 GameObject:
   m_ObjectHideFlags: 0
@@ -97027,7 +96932,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AddAmount: 1
   CoinCollectedSound: {fileID: 8300000, guid: d7122992de721494a8f30779ca4ed28a, type: 3}
-  script1: {fileID: 2079610145}
 --- !u!1 &2114765602
 GameObject:
   m_ObjectHideFlags: 0
@@ -97449,7 +97353,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AddAmount: 1
   CoinCollectedSound: {fileID: 8300000, guid: d7122992de721494a8f30779ca4ed28a, type: 3}
-  script1: {fileID: 2079610145}
 --- !u!1 &2125704111
 GameObject:
   m_ObjectHideFlags: 0

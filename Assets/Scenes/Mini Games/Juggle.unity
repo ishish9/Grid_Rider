@@ -18524,7 +18524,7 @@ MonoBehaviour:
   LevelMusic: {fileID: 8300000, guid: 553e6a1e9d1d2544ebd0a77bd2996253, type: 3}
   qualityLevelLowOBJ: {fileID: 832575517}
   GridNameTitleOBJ: {fileID: 394729363}
-  GridHighSet: Time
+  GridName: Juggle
   isCountDown2: 0
   isLevelE: 0
 --- !u!4 &1422001787
@@ -20028,6 +20028,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   FX: {fileID: 3365853034859445910, guid: 5203fa119706a664e8eefc9330ccd8a0, type: 3}
+  Bullet: {fileID: 0}
+  isBulletPool: 0
 --- !u!4 &1753950192
 Transform:
   m_ObjectHideFlags: 0

@@ -7,14 +7,14 @@ public class Level_Start : MonoBehaviour
     [SerializeField] private CameraControls script2;
     [SerializeField] private CameraControls_E script6;
     [SerializeField] private Score script3;
-    [SerializeField] private Menu script5;
     [SerializeField] private AudioClip LevelStartSound;
     [SerializeField] private AudioClip LevelMusic;
     [SerializeField] private GameObject qualityLevelLowOBJ;
     [SerializeField] private GameObject GridNameTitleOBJ;
-    [SerializeField] private string GridHighSet;
+    [SerializeField] private string GridName;
     [SerializeField] private bool isCountDown2;
     [SerializeField] private bool isLevelE;
+    [SerializeField] private bool NotUsingCountDownScript;
 
     void Start()
     {
@@ -25,19 +25,26 @@ public class Level_Start : MonoBehaviour
         if (PlayerPrefs.GetInt("musicOnOff") == 0)
         {
             AudioManager.Instance.MusicOff();
-        }
-       
+        }     
 
         if (isCountDown2)
         {
             script4.timerIsRunning = true;
         }
-        else
+        else 
         {
-            script1.timerIsRunning = true;
+            if (NotUsingCountDownScript)
+            {
+                return;
+            }
+            else
+            {
+                script1.timerIsRunning = true;
+            }
         }
-
-        switch (GridHighSet)
+        
+        // Getting grid name and setting it on level start.
+        switch (GridName)
         {
             case "A":
                 script3.SetHighScoreA();
@@ -46,19 +53,26 @@ public class Level_Start : MonoBehaviour
                 script3.SetHighScoreB();
                 break;
             case "Fast":
-                script3.SetHighScoreC();
+                script3.SetHighScoreFast();
                 break;
             case "Fight":
-                script3.SetHighScoreD();
+                script3.SetHighScoreFight();
                 break;
-            case "E":
-                script3.SetHighScoreE();
+            case "TimesUp":
+                script3.SetHighScoreTimesUp();
                 break;
-            case "F":
-                script3.SetHighScoreF();
+            case "BarrierToEntry":
+                script3.SetHighScoreBarrierToEntry();
                 break;
-            case "G":
-                script3.SetHighScoreG();
+                // Mini Games
+            case "BarrierBuster":
+                script3.SetHighScoreBarrierBuster();
+                break;
+            case "LaserSharp":
+                script3.SetHighScoreLaserSharp();
+                break;
+            case "Juggle":
+                script3.SetHighScoreJuggle();
                 break;
         }
 
@@ -80,6 +94,6 @@ public class Level_Start : MonoBehaviour
 
     public string CurrentGrid()
     {
-        return GridHighSet;
+        return GridName;
     }
 }

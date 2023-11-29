@@ -6,10 +6,10 @@ public class StartMenu : MonoBehaviour
     [SerializeField] private GameObject qualityLevelLowOBJ;
     [SerializeField] private TextMeshProUGUI PersonalHighA;
     [SerializeField] private TextMeshProUGUI PersonalHighB;
-    [SerializeField] private TextMeshProUGUI PersonalHighC;
-    [SerializeField] private TextMeshProUGUI PersonalHighD;
-    [SerializeField] private TextMeshProUGUI PersonalHighE;
-    [SerializeField] private TextMeshProUGUI PersonalHighF;
+    [SerializeField] private TextMeshProUGUI PersonalHighFast;
+    [SerializeField] private TextMeshProUGUI PersonalHighFight;
+    [SerializeField] private TextMeshProUGUI PersonalHighTimesUp;
+    [SerializeField] private TextMeshProUGUI PersonalHighBarrierToEntry;
     [SerializeField] private Transform MenuEffectsRandom;
     //[SerializeField] private TextMeshProUGUI PersonalHighG;
 
@@ -26,10 +26,10 @@ public class StartMenu : MonoBehaviour
 
         PersonalHighA.text = "Grid A High Score: <color=red>" + PlayerPrefs.GetInt("HighScoreA").ToString();
         PersonalHighB.text = "Grid B High Score: <color=red>" + PlayerPrefs.GetInt("HighScoreB").ToString();
-        PersonalHighC.text = "Grid C High Score: <color=red>" + PlayerPrefs.GetInt("HighScoreC").ToString();
-        PersonalHighD.text = "Grid D High Score: <color=red>" + PlayerPrefs.GetInt("HighScoreD").ToString();
-        PersonalHighE.text = "Grid E High Score: <color=red>" + PlayerPrefs.GetInt("HighScoreE").ToString();
-        PersonalHighF.text = "Grid F High Score: <color=red>" + PlayerPrefs.GetInt("HighScoreF").ToString();
+        PersonalHighFast.text = "Grid Fast High Score: <color=red>" + PlayerPrefs.GetInt("HighScoreFast").ToString();
+        PersonalHighFight.text = "Grid Fight High Score: <color=red>" + PlayerPrefs.GetInt("HighScoreFight").ToString();
+        PersonalHighTimesUp.text = "Grid Times Up High Score: <color=red>" + PlayerPrefs.GetInt("HighScoreTimesUp").ToString();
+        PersonalHighBarrierToEntry.text = "Grid Barrier To Entry High Score: <color=red>" + PlayerPrefs.GetInt("HighScoreBarrierToEntry").ToString();
         //PersonalHighG.text = "Grid G High Score: <color=red>" + PlayerPrefs.GetInt("HighScoreG").ToString();
 
         if (QualitySettings.GetQualityLevel() == 0)

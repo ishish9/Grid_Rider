@@ -60179,7 +60179,7 @@ MonoBehaviour:
   LevelMusic: {fileID: 8300000, guid: 0c65cffa9fcfb184390e82aa318f08fc, type: 3}
   qualityLevelLowOBJ: {fileID: 832575517}
   GridNameTitleOBJ: {fileID: 394729363}
-  GridHighSet: A
+  GridName: A
   isCountDown2: 0
   isLevelE: 0
 --- !u!4 &1422001787
@@ -85663,7 +85663,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f497f9c41dc00904b8670e4e51a92949, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ScoreText: {fileID: 911451686}
   SBHigh_Display: {fileID: 2035640983}
   SBHigh_Submit_Display: {fileID: 1457573297}
   SB_Display: {fileID: 2066658091}

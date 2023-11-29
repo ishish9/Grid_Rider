@@ -627,10 +627,10 @@ MonoBehaviour:
   qualityLevelLowOBJ: {fileID: 832575517}
   PersonalHighA: {fileID: 946875562}
   PersonalHighB: {fileID: 1051795232}
-  PersonalHighC: {fileID: 207823412}
-  PersonalHighD: {fileID: 126051111}
-  PersonalHighE: {fileID: 478331885}
-  PersonalHighF: {fileID: 1505941996}
+  PersonalHighFast: {fileID: 207823412}
+  PersonalHighFight: {fileID: 126051111}
+  PersonalHighTimesUp: {fileID: 478331885}
+  PersonalHighBarrierToEntry: {fileID: 1505941996}
   MenuEffectsRandom: {fileID: 408973589}
 --- !u!1 &67615634
 GameObject:
@@ -873,7 +873,7 @@ GameObject:
   - component: {fileID: 126051112}
   - component: {fileID: 126051111}
   m_Layer: 5
-  m_Name: D
+  m_Name: Fight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11396,7 +11396,7 @@ GameObject:
   - component: {fileID: 207823413}
   - component: {fileID: 207823412}
   m_Layer: 5
-  m_Name: C
+  m_Name: Fast
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11965,7 +11965,7 @@ GameObject:
   - component: {fileID: 276714227}
   - component: {fileID: 276714226}
   m_Layer: 5
-  m_Name: YourHighScoreF
+  m_Name: YourHighScoreBarrierToEntry
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12928,7 +12928,7 @@ GameObject:
   - component: {fileID: 478331886}
   - component: {fileID: 478331885}
   m_Layer: 5
-  m_Name: E
+  m_Name: TimesUp
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -23099,7 +23099,7 @@ GameObject:
   - component: {fileID: 576898219}
   - component: {fileID: 576898218}
   m_Layer: 5
-  m_Name: YourHighScoreC
+  m_Name: YourHighScoreFast
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -34090,7 +34090,7 @@ GameObject:
   - component: {fileID: 1505941997}
   - component: {fileID: 1505941996}
   m_Layer: 5
-  m_Name: F
+  m_Name: BarrierToEntry
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -36054,7 +36054,7 @@ GameObject:
   - component: {fileID: 1846081420}
   - component: {fileID: 1846081419}
   m_Layer: 5
-  m_Name: YourHighScoreD
+  m_Name: YourHighScoreFight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -37951,7 +37951,7 @@ GameObject:
   - component: {fileID: 2103289013}
   - component: {fileID: 2103289012}
   m_Layer: 5
-  m_Name: YourHighScoreE
+  m_Name: YourHighScoreTimesUp
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

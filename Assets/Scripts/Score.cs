@@ -37,33 +37,45 @@ public class Score : MonoBehaviour
         SBHigh_Display.text = HighScore.ToString();
     }
 
-    public void SetHighScoreC()
+    public void SetHighScoreFast()
     {
-        HighScore = PlayerPrefs.GetInt("HighScoreC");
+        HighScore = PlayerPrefs.GetInt("HighScoreFast");
         SBHigh_Display.text = HighScore.ToString();
     }
 
-    public void SetHighScoreD()
+    public void SetHighScoreFight()
     {
-        HighScore = PlayerPrefs.GetInt("HighScoreD");
+        HighScore = PlayerPrefs.GetInt("HighScoreFight");
         SBHigh_Display.text = HighScore.ToString();
     }
 
-    public void SetHighScoreE()
+    public void SetHighScoreTimesUp()
     {
-        HighScore = PlayerPrefs.GetInt("HighScoreE");
+        HighScore = PlayerPrefs.GetInt("HighScoreTimesUp");
         SBHigh_Display.text = HighScore.ToString();
     }
 
-    public void SetHighScoreF()
+    public void SetHighScoreBarrierToEntry()
     {
-        HighScore = PlayerPrefs.GetInt("HighScoreF");
+        HighScore = PlayerPrefs.GetInt("HighScoreBarrierToEntry");
+        SBHigh_Display.text = HighScore.ToString();
+    }
+    // Mini Games
+    public void SetHighScoreBarrierBuster()
+    {
+        HighScore = PlayerPrefs.GetInt("HighScoreBarrierBuster");
         SBHigh_Display.text = HighScore.ToString();
     }
 
-    public void SetHighScoreG()
+    public void SetHighScoreLaserSharp()
     {
-        HighScore = PlayerPrefs.GetInt("HighScoreG");
+        HighScore = PlayerPrefs.GetInt("HighScoreLaserSharp");
+        SBHigh_Display.text = HighScore.ToString();
+    }
+
+    public void SetHighScoreJuggle()
+    {
+        HighScore = PlayerPrefs.GetInt("HighScoreJuggle");
         SBHigh_Display.text = HighScore.ToString();
     }
 
