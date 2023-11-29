@@ -4,7 +4,8 @@ public class CubeCollect : MonoBehaviour
 {
     [SerializeField] private int AddAmount;
     [SerializeField] private AudioClip CoinCollectedSound;
-    [SerializeField] private Score script1;
+    public delegate void Collected(int AddCoinAmount);
+    public static event Collected OnCubeCollect;
 
     void Update()
     {
@@ -13,6 +14,7 @@ public class CubeCollect : MonoBehaviour
 
     private void OnTriggerEnter()
     {
+        OnCubeCollect?.Invoke(AddAmount);
         AudioManager.Instance.PlaySoundEffects(CoinCollectedSound);
         GameObject fx1 = ObjectPool.instance.GetPooledObject();
         if (fx1 != null)
@@ -20,7 +22,6 @@ public class CubeCollect : MonoBehaviour
             fx1.transform.position = transform.position;
             fx1.SetActive(true);
         }
-        script1.ScoreAdd1(AddAmount);
         gameObject.SetActive(false);       
     }
 }

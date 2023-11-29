@@ -21,14 +21,8 @@ public class Score : MonoBehaviour
     public int HighScore = 0;
     private int leaderboardID = 12679;
     private string nameSubmit;
-    [SerializeField] private bool BarrierBuster;
-                        
 
 
-    private void Start()
-    {
-        Barrier_Spawned br = new Barrier_Spawned();
-    }
     public void SetHighScoreA()
     {
         HighScore = PlayerPrefs.GetInt("HighScoreA");
@@ -75,12 +69,15 @@ public class Score : MonoBehaviour
     {
         Laser_Grid_Cleared_Trigger.OnExitScore += ScoreAdd1;
         Barrier.OnScore += ScoreAdd1;
+        CubeCollect.OnCubeCollect += ScoreAdd1;
+
     }
-    
+
     void OnDisable()
     {
         Laser_Grid_Cleared_Trigger.OnExitScore -= ScoreAdd1;
         Barrier.OnScore -= ScoreAdd1;
+        CubeCollect.OnCubeCollect -= ScoreAdd1;
     }
 
     public void Scoreupdate()
@@ -138,6 +135,7 @@ public class Score : MonoBehaviour
                 case "Faster":
                     PlayerPrefs.SetInt("HighScoreFaster", HighScore);
                     break;
+                    // Mini Games
                 case "BarrierBuster":
                     PlayerPrefs.SetInt("HighScoreBarrierBuster", HighScore);
                     break;

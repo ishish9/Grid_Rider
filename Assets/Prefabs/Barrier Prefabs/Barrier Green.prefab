@@ -53,7 +53,6 @@ MonoBehaviour:
   impactBarrierClip: {fileID: 8300000, guid: 26ddab4c3d0d4ca4986b9d632210d968, type: 3}
   ImpactBarrierEffect: {fileID: 5332894256555974852, guid: a97016a149079dd4abbb2b4b4038cb28,
     type: 3}
-  variables: {fileID: 11400000, guid: 6af05d3d971a34f4aa08c7be1b4752e3, type: 2}
 --- !u!114 &5561545424268417078
 MonoBehaviour:
   m_ObjectHideFlags: 0

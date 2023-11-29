@@ -73166,7 +73166,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   delayBeforeStart: 0
-  timeBtwChars: 0.1
+  timeBtwChars: 0.05
   leadingChar: 
   leadingCharBeforeDelay: 0
 --- !u!1 &1709528839
@@ -81470,7 +81470,6 @@ MonoBehaviour:
   RestartSpeed: 2
   ScriptableAudioClips: {fileID: 11400000, guid: 6cb2c5d80d005804a9735b2cb6d652ce,
     type: 2}
-  Prefab: {fileID: 6194122435550956449, guid: 14f49d3a317ff87499b994e85e2bdfc2, type: 3}
   ProjectilespeedCustom: 0
   MovementStep: 0
   isLevel_F: 0
