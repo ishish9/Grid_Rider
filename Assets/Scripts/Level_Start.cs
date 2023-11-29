@@ -45,10 +45,10 @@ public class Level_Start : MonoBehaviour
             case "B":
                 script3.SetHighScoreB();
                 break;
-            case "C":
+            case "Fast":
                 script3.SetHighScoreC();
                 break;
-            case "D":
+            case "Fight":
                 script3.SetHighScoreD();
                 break;
             case "E":

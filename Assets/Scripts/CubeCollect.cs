@@ -9,7 +9,7 @@ public class CubeCollect : MonoBehaviour
 
     void Update()
     {
-        transform.Rotate(0f, 200f * Time.deltaTime, 0f, Space.Self);
+        transform.Rotate(0, 200 * Time.deltaTime, 0, Space.Self);
     }
 
     private void OnTriggerEnter()

@@ -1,5 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using LootLocker.Requests;
@@ -7,7 +6,7 @@ using LootLocker.Requests;
 
 public class Score : MonoBehaviour
 {
-    [SerializeField] private TextMeshProUGUI ScoreText;
+    private TextMeshProUGUI ScoreDisplay;
     [SerializeField] private TextMeshProUGUI SBHigh_Display;
     [SerializeField] private TextMeshProUGUI SBHigh_Submit_Display;
     [SerializeField] private TextMeshProUGUI SB_Display;
@@ -22,7 +21,10 @@ public class Score : MonoBehaviour
     private int leaderboardID = 12679;
     private string nameSubmit;
 
-
+    private void Start()
+    {
+        ScoreDisplay = transform.GetChild(0).GetComponent<TextMeshProUGUI>()!;
+    }
     public void SetHighScoreA()
     {
         HighScore = PlayerPrefs.GetInt("HighScoreA");
@@ -70,7 +72,6 @@ public class Score : MonoBehaviour
         Laser_Grid_Cleared_Trigger.OnExitScore += ScoreAdd1;
         Barrier.OnScore += ScoreAdd1;
         CubeCollect.OnCubeCollect += ScoreAdd1;
-
     }
 
     void OnDisable()
@@ -82,7 +83,8 @@ public class Score : MonoBehaviour
 
     public void Scoreupdate()
     {
-        ScoreText.text = CurrentScore.ToString();
+        //ScoreText.text = CurrentScore.ToString();
+        ScoreDisplay.text = CurrentScore.ToString();
     }
 
     public void ScoreAdd1(int AddAmount)
@@ -94,7 +96,7 @@ public class Score : MonoBehaviour
     public void ResetScore()
     {
         CurrentScore = 0;
-        ScoreText.text = CurrentScore.ToString();
+        ScoreDisplay.text = CurrentScore.ToString();
     }
 
     public int GetScore()
