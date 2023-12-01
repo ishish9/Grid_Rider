@@ -35,7 +35,8 @@ public class Level_Start : MonoBehaviour
         {
             if (NotUsingCountDownScript)
             {
-                return;
+                // Nothing
+
             }
             else
             {

@@ -5195,8 +5195,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3442686384912142654}
+  - component: {fileID: 6496759343122674578}
   - component: {fileID: 426054696169836967}
-  - component: {fileID: 9165072412756308424}
   - component: {fileID: 4540043259532531267}
   - component: {fileID: 677546462331846069}
   - component: {fileID: 7104192855884252285}
@@ -5229,6 +5229,18 @@ Transform:
   - {fileID: 2629536547302449072}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6496759343122674578
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9027516124652255454}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d94e17f2d2b16a48bef2537ad80117c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &426054696169836967
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5244,6 +5256,9 @@ MonoBehaviour:
   ForwardSpeed: 2
   MovementSpeed: 250
   AccelerationSpeed: 55
+  JumpSpeed: 0
+  JumpEndSpeed: 0
+  JumpStartTime: 0
   ScriptableAudioClips: {fileID: 11400000, guid: 6cb2c5d80d005804a9735b2cb6d652ce,
     type: 2}
   Prefab: {fileID: 6194122435550956449, guid: 14f49d3a317ff87499b994e85e2bdfc2, type: 3}
@@ -5251,22 +5266,7 @@ MonoBehaviour:
   spark: {fileID: 7785535947478667208, guid: e6edfd0112a351d4b899dd51fbb909a2, type: 3}
   MovementStep: -3
   WeaponEnabled: 1
---- !u!114 &9165072412756308424
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9027516124652255454}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4dab3e4dc5c71cb4d92620e55571e3ed, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Shield: {fileID: 0}
-  Torpedo: {fileID: 0}
-  HSM: {fileID: 0}
-  Bomb: {fileID: 0}
+  JumpEnabled: 0
 --- !u!114 &4540043259532531267
 MonoBehaviour:
   m_ObjectHideFlags: 0

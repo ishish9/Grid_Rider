@@ -7,7 +7,6 @@ public class Death_Trigger : MonoBehaviour
     [SerializeField] private MeshRenderer Player;
     [SerializeField] private MeshRenderer Player_Core;
     [SerializeField] private GameObject Prefab;
-    [SerializeField] private GameObject Restart;
     [SerializeField] private GameObject Heart_Empty1;
     [SerializeField] private GameObject Heart_Empty2;
     [SerializeField] private GameObject Heart_Empty3;
@@ -51,7 +50,6 @@ public class Death_Trigger : MonoBehaviour
             script1.timeRemaining = 0;
             AudioManager.Instance.SoundEffectsOff();
             AudioManager.Instance.MusicOff();
-            Restart.SetActive(true);
             Player.enabled = false;
             Player_Core.enabled = false;
             light.SetActive(false);
@@ -79,9 +77,7 @@ public class Death_Trigger : MonoBehaviour
             Heart_Empty2.SetActive(false);
             hits += -1;
             return;
-        }
-
-        
+        }      
     }
 
     public void ResetHits()
@@ -94,13 +90,10 @@ public class Death_Trigger : MonoBehaviour
         if (ABCLevels)
         {
             script2.timeRemaining = 0;
-            StartCoroutine(wait());
-
         }
         else
         {
             script1.timeRemaining = 0;
-            StartCoroutine(wait());
 
         }
         AudioManager.Instance.MusicOff();
@@ -109,15 +102,5 @@ public class Death_Trigger : MonoBehaviour
         light.SetActive(false);
         Instantiate(Prefab, Player.transform.position, transform.rotation);
         hits = 0;
-
     }
-
-    IEnumerator wait()
-    {
-
-        yield return new WaitForSeconds(2.5f);
-        Restart.SetActive(true);
-       
-    }
-
 }

@@ -24,6 +24,7 @@ public class Score : MonoBehaviour
     private void Start()
     {
         ScoreDisplay = transform.GetChild(0).GetComponent<TextMeshProUGUI>()!;
+        Debug.Log(HighScore);
     }
     public void SetHighScoreA()
     {
@@ -95,8 +96,7 @@ public class Score : MonoBehaviour
 
     public void Scoreupdate()
     {
-        //ScoreText.text = CurrentScore.ToString();
-        ScoreDisplay.text = CurrentScore.ToString();
+        ScoreDisplay.text = CurrentScore.ToString();   
     }
 
     public void ScoreAdd1(int AddAmount)
@@ -119,7 +119,8 @@ public class Score : MonoBehaviour
     public void ScoreBoard()
     {
         SB_Display.text = CurrentScore.ToString();
-
+      
+        
         if (CurrentScore > HighScore)
         {
             submit_score.SetActive(true);

@@ -57,15 +57,14 @@ public class CountDown : MonoBehaviour
                 AudioManager.Instance.MusicOff();
                 script1.TurnMovementOff();
                 script2.ScoreBoard();
-                TimeoutDisplay.SetActive(true);  
+                TimeoutDisplay.SetActive(true);
+                script3.AdMobCounter();
 
                 StartCoroutine(wait());
                 IEnumerator wait()
                 {
                     yield return new WaitForSeconds(1.5f);
                     ScoreBoard.SetActive(true);
-                    RestartButton.SetActive(true);
-                    script3.AdMobCounter();
                     switch (script3.GetAdCount(0))
                     {
                         case 3:
@@ -77,7 +76,10 @@ public class CountDown : MonoBehaviour
                             script3.ResetCounter();
                             break;
                     }
-                }                            
+                    yield return new WaitForSeconds(1.5f);
+                    RestartButton.SetActive(true);
+
+                }
             }
         }
     }
