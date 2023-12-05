@@ -9,8 +9,7 @@ public class Barrier_Spawner : MonoBehaviour
     [SerializeField] private Transform[] SpawnPositions;
     [SerializeField] private AudioClip SpawnSoundClip;
     [SerializeField] private Animator impact = null;
-    [SerializeField] private ScriptableVariables variables;
-    private float TimeBetweenSpawns = 4;
+    public static float TimeBetweenSpawns = 5;
     private int healthNumber;
     private bool HealthAvailable = true;
     private bool TimeRunning = true;
@@ -68,7 +67,7 @@ public class Barrier_Spawner : MonoBehaviour
     {
         TimeRunning = true;
         TimeBetweenSpawns = 4;
-        variables.TimeBetweenSteps = 4f;
+        //TimeBetweenSteps = 4f;
     }
 
     void OnEnable()

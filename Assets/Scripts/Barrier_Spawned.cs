@@ -4,17 +4,18 @@ public class Barrier_Spawned : MonoBehaviour
 {
     [SerializeField] private AudioClip impactBarrierClip;
     [SerializeField] private GameObject ImpactBarrierEffect;
-    private float TimeBetweenSteps = 1;
+    public static float TimeBetweenSteps = 5;
     private int stepsTaken;
     public delegate void Damage(float d);
     public static event Damage OnDamage;
     public delegate void Impact();
     public static event Impact OnImpact;
+    private int ScoreS;
 
     private void Start()
     {
-        Score score = new Score();
-        score.GetScore();
+        Score ScoreS = new Score();
+       // ScoreS.GetScore();
     }
 
     void Update()
@@ -34,8 +35,7 @@ public class Barrier_Spawned : MonoBehaviour
             AudioManager.Instance.PlaySoundEffects(impactBarrierClip);
             Instantiate(ImpactBarrierEffect, transform.position, Quaternion.identity);
             OnImpact();
-            OnDamage(20);
-            
+            OnDamage(20);          
         }
     }
 
@@ -47,6 +47,6 @@ public class Barrier_Spawned : MonoBehaviour
     {
         transform.position += new Vector3(0, 0, -1);
         TimeBetweenSteps = 1f;
-        stepsTaken += 1;
+        stepsTaken += 1; 
     }
 }

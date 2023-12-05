@@ -3,7 +3,6 @@ using UnityEngine;
 using TMPro;
 using LootLocker.Requests;
 
-
 public class Score : MonoBehaviour
 {
     private TextMeshProUGUI ScoreDisplay;
@@ -16,6 +15,8 @@ public class Score : MonoBehaviour
     [SerializeField] private GameObject scoreboard;
     [SerializeField] private GameObject HighScoreSubmit;
     [SerializeField] private Level_Start script1;
+    public delegate void ScoreEvent(int s);
+    public static event ScoreEvent OnScoreChange;
     private int CurrentScore = 0;
     public int HighScore = 0;
     private int leaderboardID = 12679;
@@ -103,6 +104,7 @@ public class Score : MonoBehaviour
     {
         CurrentScore += AddAmount;
         Scoreupdate();
+        ScoreThreshold();
     }
 
     public void ResetScore()
@@ -114,6 +116,11 @@ public class Score : MonoBehaviour
     public int GetScore()
     {
         return CurrentScore;
+    }
+
+    public void ScoreThreshold()
+    {
+        OnScoreChange(CurrentScore);
     }
 
     public void ScoreBoard()

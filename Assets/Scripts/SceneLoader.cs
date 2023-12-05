@@ -3,7 +3,7 @@ using UnityEngine.SceneManagement;
 
 public class SceneLoader : MonoBehaviour
 {
-    public GameObject LoadingText;
+    [SerializeField] private GameObject LoadingText;
 
     public void Load_Menu()
     {
