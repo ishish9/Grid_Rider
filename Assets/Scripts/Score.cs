@@ -21,7 +21,7 @@ public class Score : MonoBehaviour
     public int HighScore = 0;
     private int leaderboardID = 12679;
     private string nameSubmit;
-
+    [SerializeField] private bool MiniGames;
     private void Start()
     {
         ScoreDisplay = transform.GetChild(0).GetComponent<TextMeshProUGUI>()!;
@@ -133,7 +133,14 @@ public class Score : MonoBehaviour
             submit_score.SetActive(true);
             HighScore = CurrentScore;
             SBHigh_Display.text = CurrentScore.ToString();
-            SBHigh_Submit_Display.text = CurrentScore.ToString();
+            if (MiniGames)
+            {
+                //Nothing
+            }
+            else
+            {
+                SBHigh_Submit_Display.text = CurrentScore.ToString();
+            }
             switch (script1.CurrentGrid())
             {
                 case "A":

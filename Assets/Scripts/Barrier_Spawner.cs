@@ -8,8 +8,10 @@ public class Barrier_Spawner : MonoBehaviour
     [SerializeField] private GameObject[] BarriersPrefabs;
     [SerializeField] private Transform[] SpawnPositions;
     [SerializeField] private AudioClip SpawnSoundClip;
+    [SerializeField] private AudioClip RestartClip;
     [SerializeField] private Animator impact = null;
-    public static float TimeBetweenSpawns = 5;
+    public static float TimeBetweenSpawns = 3;
+    public static float SpawnSpeed = 3;
     private int healthNumber;
     private bool HealthAvailable = true;
     private bool TimeRunning = true;
@@ -26,7 +28,7 @@ public class Barrier_Spawner : MonoBehaviour
             }
             else
             {
-                TimeBetweenSpawns = 3f;
+                TimeBetweenSpawns = SpawnSpeed;
                 AudioManager.Instance.PlaySoundEffects(SpawnSoundClip);
                 healthNumber = Random.Range(0, 15);
 
@@ -65,9 +67,12 @@ public class Barrier_Spawner : MonoBehaviour
 
     public void RestartTimer()
     {
+        AudioManager.Instance.PlaySoundEffects(RestartClip);
+        TimeBetweenSpawns = 3;
+        SpawnSpeed = 3;
+        Barrier_Spawned.TimeBetweenSteps = 3;
+        Barrier_Spawned.BarrierSpeed = 3;
         TimeRunning = true;
-        TimeBetweenSpawns = 4;
-        //TimeBetweenSteps = 4f;
     }
 
     void OnEnable()
@@ -82,6 +87,5 @@ public class Barrier_Spawner : MonoBehaviour
     private void ImpactAnimation()
     {
         impact.Play("HealthBarrierImpact", 0, 0.0f);
-
     }
 }

@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.UI;
@@ -26,7 +27,7 @@ public class HealthBar : MonoBehaviour
         healthBar.fillAmount = healthAmount / 100f;
         if (healthAmount <= 0)
         {
-            AfterDeathEvent1.Invoke();
+            AfterDeathRest();
         }
     }
 
@@ -35,5 +36,15 @@ public class HealthBar : MonoBehaviour
         healthAmount += healAmount;
         healthAmount = Mathf.Clamp(healthAmount, 0 , 100);
         healthBar.fillAmount = healthAmount / 100f;
+    }
+
+    void AfterDeathRest()
+    {
+        StartCoroutine(wait());
+        IEnumerator wait()
+        {
+            yield return new WaitForSeconds(3);
+            AfterDeathEvent1.Invoke();
+        }
     }
 }
