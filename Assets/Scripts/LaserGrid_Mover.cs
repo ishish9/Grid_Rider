@@ -2,7 +2,8 @@ using UnityEngine;
 
 public class LaserGrid_Mover : MonoBehaviour
 {
-    private int ForwardSpeed = 5;
+    public static float ForwardSpeed = 4;
+
     private void Update()
     {
         transform.position += new Vector3(0, 0, -ForwardSpeed * Time.deltaTime);

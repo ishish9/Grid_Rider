@@ -62,6 +62,12 @@ public class Score : MonoBehaviour
         HighScore = PlayerPrefs.GetInt("HighScoreBarrierToEntry");
         SBHigh_Display.text = HighScore.ToString();
     }
+
+    public void SetHighScoreStepUp()
+    {
+        HighScore = PlayerPrefs.GetInt("HighScoreStepUp");
+        SBHigh_Display.text = HighScore.ToString();
+    }
     // Mini Games
     public void SetHighScoreBarrierBuster()
     {
@@ -104,7 +110,10 @@ public class Score : MonoBehaviour
     {
         CurrentScore += AddAmount;
         Scoreupdate();
-        ScoreThreshold();
+        if (MiniGames)
+        {
+            ScoreThreshold();
+        }
     }
 
     public void ResetScore()
@@ -164,7 +173,10 @@ public class Score : MonoBehaviour
                 case "Faster":
                     PlayerPrefs.SetInt("HighScoreFaster", HighScore);
                     break;
-                    // Mini Games
+                case "StepUp":
+                    PlayerPrefs.SetInt("HighScoreStepUp", HighScore);
+                    break;
+                // Mini Games
                 case "BarrierBuster":
                     PlayerPrefs.SetInt("HighScoreBarrierBuster", HighScore);
                     break;
@@ -201,17 +213,17 @@ public class Score : MonoBehaviour
             case "B":
                 nameSubmit = Input.text + "_G-B";
                 break;
-            case "C":
-                nameSubmit = Input.text + "_G-C";
+            case "Fast":
+                nameSubmit = Input.text + "_Fast";
                 break;
-            case "D":
-                nameSubmit = Input.text + "_G-D";
+            case "Fight":
+                nameSubmit = Input.text + "_Fight";
                 break;
-            case "E":
-                nameSubmit = Input.text + "_G-E";
+            case "TimesUp":
+                nameSubmit = Input.text + "_TimesUp";
                 break;
-            case "F":
-                nameSubmit = Input.text + "_G-F";
+            case "BarrierToEntry":
+                nameSubmit = Input.text + "_Barrier";
                 break;
             case "G":
                 nameSubmit = Input.text + "_G-G";

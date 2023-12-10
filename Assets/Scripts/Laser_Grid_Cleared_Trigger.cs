@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Laser_Grid_Cleared_Trigger : MonoBehaviour
@@ -11,6 +9,5 @@ public class Laser_Grid_Cleared_Trigger : MonoBehaviour
     {
         AudioManager.Instance.PlaySoundEffects(LaserGridCleared);
         OnExitScore(1);
-        Debug.Log("EXIT!");      
     }
 }

@@ -65,7 +65,10 @@ public class Level_Start : MonoBehaviour
             case "BarrierToEntry":
                 script3.SetHighScoreBarrierToEntry();
                 break;
-                // Mini Games
+            case "StepUp":
+                script3.SetHighScoreStepUp();
+                break;
+            // Mini Games
             case "BarrierBuster":
                 script3.SetHighScoreBarrierBuster();
                 break;

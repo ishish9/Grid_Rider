@@ -13,12 +13,14 @@ public class HealthBar : MonoBehaviour
     {
         Barrier_Spawned.OnDamage += TakeDamage;
         HealthBarrier.GiveHealth += Heal;
+        Laser.OnLaserDamage += TakeDamage;
     }
 
     void OnDisable()
     {
         Barrier_Spawned.OnDamage -= TakeDamage;
         HealthBarrier.GiveHealth -= Heal;
+        Laser.OnLaserDamage -= TakeDamage;
     }
 
     public void TakeDamage (float damage)
@@ -43,7 +45,7 @@ public class HealthBar : MonoBehaviour
         StartCoroutine(wait());
         IEnumerator wait()
         {
-            yield return new WaitForSeconds(3);
+            yield return new WaitForSeconds(2.5f);
             AfterDeathEvent1.Invoke();
         }
     }

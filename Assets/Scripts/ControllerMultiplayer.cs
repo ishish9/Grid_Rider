@@ -1,10 +1,10 @@
 using System.Collections;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.UI;
-using static UnityEngine.GraphicsBuffer;
-using static UnityEngine.ParticleSystem;
-using static UnityEngine.Rendering.DebugUI;
+
+
 
 public class ControllerMultiplayer : MonoBehaviour
 {
@@ -28,7 +28,9 @@ public class ControllerMultiplayer : MonoBehaviour
     private bool HasJumped = false;
     ActionMap_1 actionsWrapper;
     private Vector2 move;
-    
+    private bool Button_Left;
+    private bool Button_Right;
+
 
     private void Awake()
     {
@@ -36,7 +38,6 @@ public class ControllerMultiplayer : MonoBehaviour
         actionsWrapper.PlayerMultiplayer.Fire.performed += OnFire;
         actionsWrapper.PlayerMultiplayer.Jump.started += OnJump;
         actionsWrapper.PlayerMultiplayer.Jump.canceled += OnJumpEnd;
-
         actionsWrapper.PlayerMultiplayer.Accelerate.performed += OnAccelerate;
     }
 
@@ -48,21 +49,19 @@ public class ControllerMultiplayer : MonoBehaviour
     void FixedUpdate()
     {
         move = actionsWrapper.PlayerMultiplayer.Move.ReadValue<Vector2>();// * (PlayerSpeed * Time.deltaTime);
-        if (move == Vector2.left)
+        if (move == Vector2.left || Button_Left == true)
         {
             rb.AddForce(Vector2.left * MovementSpeed * Time.deltaTime, ForceMode.Force);
         }
-        else if (move == Vector2.right)
+        else if (move == Vector2.right || Button_Right == true)
         {
             rb.AddForce(Vector2.right * MovementSpeed * Time.deltaTime);
         }
-        //transform.position += new Vector3(move.x, move.y, 0) * PlayerSpeed * Time.deltaTime;
 
         // Move Forward
         if (MovementAllowed)
         {
             rb.AddForce(Vector3.forward * ForwardSpeed * Time.deltaTime, ForceMode.Impulse);
-            //transform.position += new Vector3(0, 0, ForwardSpeed * Time.deltaTime);
         }
     }
     // Menu OFF
@@ -96,7 +95,6 @@ public class ControllerMultiplayer : MonoBehaviour
     {
         if (MovementAllowed)
         {
-            //transform.position += new Vector3(0, 0, ForwardSpeed * Time.deltaTime);
             rb.AddForce(Vector3.forward * AccelerationSpeed * Time.deltaTime);
         }
     }
@@ -140,14 +138,14 @@ public class ControllerMultiplayer : MonoBehaviour
     }
 
     // On Screen Controls
-    public void Right()
+    public void Right( bool boolean)
     {
-        rb.AddForce(Vector2.right * MovementSpeed * Time.deltaTime);
+        Button_Right = boolean;
     }
 
-    public void Left()
+    public void Left(bool boolean)
     {
-        rb.AddForce(Vector2.left * MovementSpeed * Time.deltaTime);
+        Button_Left = boolean;
     }
 
     public void Jump()
