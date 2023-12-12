@@ -8,6 +8,8 @@ public class HealthBar : MonoBehaviour
     [SerializeField] private Image healthBar;
     [SerializeField] private float healthAmount = 100f;
     [SerializeField] private UnityEvent AfterDeathEvent1;
+    [SerializeField] private UnityEvent InstantAfterDeathEvent;
+
 
     void OnEnable()
     {
@@ -42,6 +44,7 @@ public class HealthBar : MonoBehaviour
 
     void AfterDeathRest()
     {
+        InstantAfterDeathEvent.Invoke();
         StartCoroutine(wait());
         IEnumerator wait()
         {

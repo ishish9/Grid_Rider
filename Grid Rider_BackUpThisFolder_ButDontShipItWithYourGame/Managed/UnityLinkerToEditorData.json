@@ -679,7 +679,8 @@
             "scenes": [
               "Assets/Scenes/Grid_F.unity",
               "Assets/Scenes/Mini Games/Barrier Buster.unity",
-              "Assets/Scenes/Mini Games/Juggle.unity"
+              "Assets/Scenes/Mini Games/Juggle.unity",
+              "Assets/Scenes/Mini Games/Laser Sharp.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -806,6 +807,7 @@
               "Assets/Scenes/Grid_E.unity",
               "Assets/Scenes/Grid_F.unity",
               "Assets/Scenes/Grid_Fight.unity",
+              "Assets/Scenes/Mini Games/Barrier Buster.unity",
               "Assets/Scenes/Mini Games/Juggle.unity",
               "Assets/Scenes/Mini Games/Laser Sharp.unity",
               "Assets/Scenes/MP_1.unity",
@@ -1187,6 +1189,14 @@
             "icon": null
           },
           {
+            "name": "CapsuleCollider",
+            "scenes": [
+              "Assets/Scenes/MP_1.unity"
+            ],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
             "name": "CharacterJoint",
             "scenes": [],
             "dependencyType": 0,
@@ -1252,6 +1262,7 @@
               "Assets/Scenes/Grid_E.unity",
               "Assets/Scenes/Grid_F.unity",
               "Assets/Scenes/Grid_Fight.unity",
+              "Assets/Scenes/Mini Games/Barrier Buster.unity",
               "Assets/Scenes/Mini Games/Juggle.unity",
               "Assets/Scenes/Mini Games/Laser Sharp.unity",
               "Assets/Scenes/MP_1.unity",

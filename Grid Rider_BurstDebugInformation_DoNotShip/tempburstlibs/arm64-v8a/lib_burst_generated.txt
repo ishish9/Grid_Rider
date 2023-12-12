@@ -9,6 +9,10 @@ Library: C:\Users\ishis\Unity Projects\Grid_Rider\Temp\BurstOutput\tempburstlibs
 --target-framework=NetFramework
 --assembly-defines=AllIn1VfxTexDemoAssembly;
 --assembly-defines=Assembly-CSharp;
+--assembly-defines=Febucci.Attributes.Runtime;
+--assembly-defines=Febucci.TextAnimator.Demo.Runtime;
+--assembly-defines=Febucci.TextAnimator.Runtime;
+--assembly-defines=Febucci.TextAnimator.TMP.Runtime;
 --assembly-defines=GoogleMobileAds.Android;
 --assembly-defines=GoogleMobileAds.Common;
 --assembly-defines=GoogleMobileAds.Core;
@@ -42,6 +46,7 @@ Library: C:\Users\ishis\Unity Projects\Grid_Rider\Temp\BurstOutput\tempburstlibs
 --assembly-defines=Unity.Multiplayer.Tools.NetStats;
 --assembly-defines=Unity.Multiplayer.Tools.NetStatsReporting;
 --assembly-defines=Unity.Multiplayer.Tools.NetworkSolutionInterface;
+--assembly-defines=Unity.Netcode.Components;
 --assembly-defines=Unity.Netcode.Runtime;
 --assembly-defines=Unity.Networking.Transport;
 --assembly-defines=Unity.RenderPipeline.Universal.ShaderLibrary;
@@ -153,6 +158,10 @@ Library: C:\Users\ishis\Unity Projects\Grid_Rider\Temp\BurstOutput\tempburstlibs
 --float-mode=Fast
 --assembly-defines=AllIn1VfxTexDemoAssembly;
 --assembly-defines=Assembly-CSharp;
+--assembly-defines=Febucci.Attributes.Runtime;
+--assembly-defines=Febucci.TextAnimator.Demo.Runtime;
+--assembly-defines=Febucci.TextAnimator.Runtime;
+--assembly-defines=Febucci.TextAnimator.TMP.Runtime;
 --assembly-defines=GoogleMobileAds.Android;
 --assembly-defines=GoogleMobileAds.Common;
 --assembly-defines=GoogleMobileAds.Core;
@@ -186,6 +195,7 @@ Library: C:\Users\ishis\Unity Projects\Grid_Rider\Temp\BurstOutput\tempburstlibs
 --assembly-defines=Unity.Multiplayer.Tools.NetStats;
 --assembly-defines=Unity.Multiplayer.Tools.NetStatsReporting;
 --assembly-defines=Unity.Multiplayer.Tools.NetworkSolutionInterface;
+--assembly-defines=Unity.Netcode.Components;
 --assembly-defines=Unity.Netcode.Runtime;
 --assembly-defines=Unity.Networking.Transport;
 --assembly-defines=Unity.RenderPipeline.Universal.ShaderLibrary;

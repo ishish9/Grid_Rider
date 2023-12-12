@@ -8,4 +8,9 @@ public class LaserGrid_Mover : MonoBehaviour
     {
         transform.position += new Vector3(0, 0, -ForwardSpeed * Time.deltaTime);
     }
+
+    private void Start()
+    {
+        Destroy(gameObject, 4);
+    }
 }

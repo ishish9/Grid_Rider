@@ -32,9 +32,4 @@ public class LaserGridSpawner : MonoBehaviour
         TimeBetweenSpawns += rate;
     }
 
-    public void ToggleSpawner()
-    {
-        Debug.Log(SpawnerEnabled);
-        SpawnerEnabled = !SpawnerEnabled;
-    }
 }

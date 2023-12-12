@@ -70,11 +70,11 @@ PlayerSettings:
   androidUseSwappy: 0
   androidBlitType: 1
   androidResizableWindow: 0
-  androidDefaultWindowWidth: 1920
-  androidDefaultWindowHeight: 1080
+  androidDefaultWindowWidth: 1024
+  androidDefaultWindowHeight: 768
   androidMinimumWindowWidth: 400
   androidMinimumWindowHeight: 300
-  androidFullscreenMode: 1
+  androidFullscreenMode: 3
   defaultIsNativeResolution: 1
   macRetinaSupport: 1
   runInBackground: 0
@@ -136,7 +136,8 @@ PlayerSettings:
   vulkanEnableCommandBufferRecycling: 1
   loadStoreDebugModeEnabled: 0
   bundleVersion: 4.0
-  preloadedAssets: []
+  preloadedAssets:
+  - {fileID: 11400000, guid: 56f095dec7d4b714a8ffd632727cf345, type: 2}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1

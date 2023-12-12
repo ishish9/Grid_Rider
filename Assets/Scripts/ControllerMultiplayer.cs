@@ -1,9 +1,6 @@
 using System.Collections;
-using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
-using UnityEngine.UI;
-
 
 
 public class ControllerMultiplayer : MonoBehaviour
@@ -166,8 +163,6 @@ public class ControllerMultiplayer : MonoBehaviour
              rb.AddForce(new Vector3(0, JumpEndSpeed, 0), ForceMode.Impulse);           
         }
     }
-
-
 
 
     public void StartPlayer()
