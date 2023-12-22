@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -14,6 +15,12 @@ public class Controller : MonoBehaviour
     [SerializeField] private bool WeaponEnabled;
     [SerializeField] private bool CustomProjectileSpeed;
     ActionMap_1 actionsWrapper;
+    private bool SlowDownSpeed;
+    private float speedStart = 5;
+    private float speedEnd = 0;
+    private float t = 0.0f;
+    private float elapsedTime;
+    private float desiredDuration = 3f;
 
     private void Awake()
     {
@@ -141,12 +148,19 @@ public class Controller : MonoBehaviour
 
     void Update()
     {
-        //Vector2 moveVector = actionsWrapper.Player.Move.ReadValue<Vector2>();     
+        //Vector2 moveVector = actionsWrapper.Player.Move.ReadValue<Vector2>();
 
         // Move Player Forward
         if (!isLevel_F && MovementAllowed)
         {
             transform.position += new Vector3(0, 0, ForwardSpeed * Time.deltaTime);
+        }
+
+        if (SlowDownSpeed)
+        {
+            elapsedTime += Time.deltaTime;
+            float pc = elapsedTime / desiredDuration;
+            transform.position += new Vector3(0, 0, Mathf.Lerp(speedStart, speedEnd, Mathf.SmoothStep(0,1, pc)));
         }
     }
 
@@ -200,6 +214,10 @@ public class Controller : MonoBehaviour
         //Debug.Log(Projectilespeed + " SPEED");
     }
 
+    public void SlowSpeedStop()
+    {
+        SlowDownSpeed = true;
+    }
     public void StartPlayer()
     {
         ForwardSpeed = RestartSpeed;

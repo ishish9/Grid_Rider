@@ -89,6 +89,7 @@ public class Score : MonoBehaviour
 
     void OnEnable()
     {
+       // EventManager.instance.onCubeCollect += ScoreAdd1;
         Laser_Grid_Cleared_Trigger.OnExitScore += ScoreAdd1;
         Barrier.OnScore += ScoreAdd1;
         CubeCollect.OnCubeCollect += ScoreAdd1;

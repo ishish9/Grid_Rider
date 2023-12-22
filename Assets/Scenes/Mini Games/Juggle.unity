@@ -1520,7 +1520,7 @@ Transform:
   m_GameObject: {fileID: 137214757}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.6966103, y: 1, z: 6.5}
+  m_LocalPosition: {x: 0.5, y: 7, z: 3.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -18519,7 +18519,6 @@ MonoBehaviour:
   script2: {fileID: 330585548}
   script6: {fileID: 0}
   script3: {fileID: 0}
-  script5: {fileID: 0}
   LevelStartSound: {fileID: 8300000, guid: 2aac3f62f3d8e8e4395227dc95168032, type: 3}
   LevelMusic: {fileID: 8300000, guid: 553e6a1e9d1d2544ebd0a77bd2996253, type: 3}
   qualityLevelLowOBJ: {fileID: 832575517}
@@ -18527,6 +18526,7 @@ MonoBehaviour:
   GridName: Juggle
   isCountDown2: 0
   isLevelE: 0
+  NotUsingCountDownScript: 0
 --- !u!4 &1422001787
 Transform:
   m_ObjectHideFlags: 0
@@ -22516,7 +22516,7 @@ GameObject:
   - component: {fileID: 2060088474}
   - component: {fileID: 2060088477}
   m_Layer: 3
-  m_Name: Player
+  m_Name: Reflector
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -22580,13 +22580,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2060088472}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.38268343, y: 0, z: 0, w: 0.92387956}
-  m_LocalPosition: {x: 0, y: 0, z: 1.4285715}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1.4285715, z: 0}
   m_LocalScale: {x: 0.2857143, y: 2.857143, z: 0.2857143}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1941844119}
-  m_LocalEulerAnglesHint: {x: 45, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &2060088477
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -23804,7 +23804,6 @@ MonoBehaviour:
   Player: {fileID: 5906883658372690519}
   Player_Core: {fileID: 1941844117}
   Prefab: {fileID: 4422825489457192448, guid: d5cc70746e019084991f28f7b5e8445c, type: 3}
-  Restart: {fileID: 1771215991}
   Heart_Empty1: {fileID: 0}
   Heart_Empty2: {fileID: 0}
   Heart_Empty3: {fileID: 0}

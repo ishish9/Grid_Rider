@@ -60174,7 +60174,6 @@ MonoBehaviour:
   script2: {fileID: 330585548}
   script6: {fileID: 0}
   script3: {fileID: 2079610145}
-  script5: {fileID: 1308613227}
   LevelStartSound: {fileID: 8300000, guid: 2aac3f62f3d8e8e4395227dc95168032, type: 3}
   LevelMusic: {fileID: 8300000, guid: 0c65cffa9fcfb184390e82aa318f08fc, type: 3}
   qualityLevelLowOBJ: {fileID: 832575517}
@@ -60182,6 +60181,7 @@ MonoBehaviour:
   GridName: A
   isCountDown2: 0
   isLevelE: 0
+  NotUsingCountDownScript: 0
 --- !u!4 &1422001787
 Transform:
   m_ObjectHideFlags: 0
@@ -74021,6 +74021,50 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1729735085}
   m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1730207173
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1730207175}
+  - component: {fileID: 1730207174}
+  m_Layer: 0
+  m_Name: EventManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1730207174
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1730207173}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fd78ab18c8f7df4b926b359114e4df7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &1730207175
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1730207173}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 394.86768, y: 1963.5487, z: -2304.1162}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1731680463
 GameObject:
   m_ObjectHideFlags: 0
@@ -85673,6 +85717,7 @@ MonoBehaviour:
   HighScoreSubmit: {fileID: 512563863}
   script1: {fileID: 1422001786}
   HighScore: 0
+  MiniGames: 0
 --- !u!114 &2079610146
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -88481,7 +88526,6 @@ MonoBehaviour:
   Player: {fileID: 5906883658372690519}
   Player_Core: {fileID: 1941844117}
   Prefab: {fileID: 4422825489457192448, guid: d5cc70746e019084991f28f7b5e8445c, type: 3}
-  Restart: {fileID: 1771215991}
   Heart_Empty1: {fileID: 0}
   Heart_Empty2: {fileID: 0}
   Heart_Empty3: {fileID: 0}
@@ -90424,6 +90468,7 @@ SceneRoots:
   - {fileID: 664555505}
   - {fileID: 1973824683}
   - {fileID: 1437656595}
+  - {fileID: 1730207175}
   - {fileID: 1882618315}
   - {fileID: 2447023510504998572}
   - {fileID: 832575519}

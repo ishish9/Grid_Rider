@@ -15,6 +15,7 @@ public class CubeCollect : MonoBehaviour
     private void OnTriggerEnter()
     {
         OnCubeCollect?.Invoke(AddAmount);
+        //EventManager.instance.cubeCollected(1);
         AudioManager.Instance.PlaySoundEffects(CoinCollectedSound);
         GameObject fx1 = ObjectPool.instance.GetPooledObject();
         if (fx1 != null)
