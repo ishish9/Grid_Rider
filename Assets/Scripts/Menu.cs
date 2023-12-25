@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.Events;
+using UnityEngine.UI;
 
 public class Menu : MonoBehaviour
 {
@@ -8,6 +9,10 @@ public class Menu : MonoBehaviour
     [SerializeField] private GameObject menuUI;
     [SerializeField] private GameObject GraphicsUI;
     [SerializeField] private GameObject PostPross;
+    [SerializeField] private Button lowButton;
+    [SerializeField] private Button mediumButton;
+    [SerializeField] private Button highButton;
+    [SerializeField] private Button veryHighButton;
     ActionMap_1 actionsWrapper2;
     public UnityEvent PausePlayerEvent;
     public UnityEvent UnPausePlayerEvent;
@@ -122,27 +127,54 @@ public class Menu : MonoBehaviour
         Application.Quit();
     }
 
+    // Highlights currently graphics settings button
+    public void SelectGraphicsButton()
+    {
+        switch (PlayerPrefs.GetInt("QualitySetting"))
+        {
+            case 0:
+                lowButton.Select();
+                break;
+            case 1:
+                mediumButton.Select();
+                break;
+            case 2:
+                highButton.Select();
+                break;
+            case 3:
+                veryHighButton.Select();
+                break;
+        }
+    }
     public void LowSetting()
     {
         PostPross.SetActive(false);
         QualitySettings.SetQualityLevel(0, true);
+        PlayerPrefs.SetInt("QualitySetting", 0);
+        PlayerPrefs.Save();
     }
 
     public void MediumSetting()
     {
         PostPross.SetActive(true);
         QualitySettings.SetQualityLevel(1, true);
+        PlayerPrefs.SetInt("QualitySetting", 1);
+        PlayerPrefs.Save();
     }
 
     public void HighSetting()
     {
         PostPross.SetActive(true);
         QualitySettings.SetQualityLevel(2, true);
+        PlayerPrefs.SetInt("QualitySetting", 2);
+        PlayerPrefs.Save();
     }
 
     public void VeryHighSetting()
     {
         PostPross.SetActive(true);
         QualitySettings.SetQualityLevel(3, true);
+        PlayerPrefs.SetInt("QualitySetting", 3);
+        PlayerPrefs.Save();
     }
 }

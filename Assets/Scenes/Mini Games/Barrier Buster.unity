@@ -2846,6 +2846,19 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 4377434483952012536}
+        m_TargetAssemblyTypeName: AudioManager, Assembly-CSharp
+        m_MethodName: PlaySoundEffects
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 8300000, guid: 0c76597ca48b8454f9b2d8d9f65efa5d,
+            type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   InstantAfterDeathEvent:
     m_PersistentCalls:
       m_Calls: []
@@ -39452,6 +39465,10 @@ MonoBehaviour:
   menuUI: {fileID: 3321179930507589487}
   GraphicsUI: {fileID: 630074572}
   PostPross: {fileID: 832575517}
+  lowButton: {fileID: 0}
+  mediumButton: {fileID: 0}
+  highButton: {fileID: 0}
+  veryHighButton: {fileID: 0}
   PausePlayerEvent:
     m_PersistentCalls:
       m_Calls:

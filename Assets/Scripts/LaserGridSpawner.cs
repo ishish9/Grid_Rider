@@ -1,8 +1,10 @@
+using System.Collections.Generic;
 using UnityEngine;
 
 public class LaserGridSpawner : MonoBehaviour
 {
     [SerializeField] private GameObject[] LaserGridPrefabs;
+    private List<GameObject> LaserPool = new List <GameObject>();
     [SerializeField] private Transform SpawnPositions;
     [SerializeField] private AudioClip SpawnSoundClip;
     private static float TimeBetweenSpawns = 3;
@@ -21,7 +23,8 @@ public class LaserGridSpawner : MonoBehaviour
             else
             {
                 AudioManager.Instance.PlaySoundEffects(SpawnSoundClip);
-                Instantiate(LaserGridPrefabs[Random.Range(0, LaserGridPrefabs.Length)], SpawnPositions.position, Quaternion.identity);
+                GameObject LaserGrid = Instantiate(LaserGridPrefabs[Random.Range(0, LaserGridPrefabs.Length)], SpawnPositions.position, Quaternion.identity);
+                LaserPool.Add(LaserGrid);
                 TimeBetweenSpawns = 3f;
             }
         }
@@ -32,4 +35,12 @@ public class LaserGridSpawner : MonoBehaviour
         TimeBetweenSpawns += rate;
     }
 
+    public void DestroyLaserGrids()
+    {
+        for (int i = 0; i < LaserPool.Count; i++)
+        {
+            Destroy(LaserPool[i].gameObject);
+        }
+        LaserPool.Clear();
+    }
 }

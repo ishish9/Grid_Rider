@@ -1,8 +1,10 @@
+using System.Collections;
 using UnityEngine;
 using TMPro;
 
 public class StartMenu : MonoBehaviour
 {
+    [SerializeField] private Menu menu;
     [SerializeField] private GameObject qualityLevelLowOBJ;
     [SerializeField] private TextMeshProUGUI PersonalHighA;
     [SerializeField] private TextMeshProUGUI PersonalHighB;
@@ -17,10 +19,28 @@ public class StartMenu : MonoBehaviour
     {
         Application.targetFrameRate = 120;
         MenuEffectsRandom.GetChild(Random.Range(0, MenuEffectsRandom.transform.childCount)).gameObject.SetActive(true);
+        switch (PlayerPrefs.GetInt("QualitySetting"))
+        {
+            case 0:
+                menu.LowSetting();
+                qualityLevelLowOBJ.SetActive(false);
+                break;
+            case 1:
+                menu.MediumSetting();
+                break;
+            case 2:
+                menu.HighSetting();
+                break;
+            case 3:
+                menu.VeryHighSetting();
+                break;
+        }
 
         if (PlayerPrefs.GetInt("UserSetMusicSetting") == 0)
         {
             PlayerPrefs.SetInt("musicOnOff", 1);
+            PlayerPrefs.Save();
+
             return;
         }
 
@@ -31,10 +51,6 @@ public class StartMenu : MonoBehaviour
         PersonalHighTimesUp.text = "Grid Times Up High Score: <color=red>" + PlayerPrefs.GetInt("HighScoreTimesUp").ToString();
         PersonalHighBarrierToEntry.text = "Grid Barrier To Entry High Score: <color=red>" + PlayerPrefs.GetInt("HighScoreBarrierToEntry").ToString();
         //PersonalHighG.text = "Grid G High Score: <color=red>" + PlayerPrefs.GetInt("HighScoreG").ToString();
-
-        if (QualitySettings.GetQualityLevel() == 0)
-        {
-            qualityLevelLowOBJ.SetActive(false);
-        }
-    }
+               
+    }  
 }

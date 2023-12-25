@@ -27,12 +27,9 @@ public class HealthBar : MonoBehaviour
 
     public void TakeDamage (float damage)
     {
-        float temp = healthAmount;
         healthAmount -= damage;
-        float t = healthAmount / damage;
-
-        // healthBar.fillAmount = healthAmount / 100f;
-        healthBar.fillAmount = Mathf.Lerp(temp,  healthAmount, healthAmount / 100f);
+        healthBar.fillAmount = healthAmount / 100f;
+        //healthBar.fillAmount = Mathf.Lerp(temp,  healthAmount, healthAmount / 100f);
 
         if (healthAmount <= 0)
         {
