@@ -22,16 +22,10 @@ EditorBuildSettings:
     guid: 6968e022cbdd87940987e4c527fd3080
   - enabled: 1
     path: Assets/Scenes/Barrier To Entry.unity
-    guid: 5a3ffd91513aa17408b1199c54cc4a0b
+    guid: 5d4947ff7ac9ddd4a99c9587952ce629
   - enabled: 1
     path: Assets/Scenes/Times Up!.unity
     guid: a0205ec74808c65438bb019e77e57ae5
-  - enabled: 1
-    path: Assets/Scenes/Grid_E.unity
-    guid: bf1a2c57528db424d8a07dc6c80f73dd
-  - enabled: 1
-    path: Assets/Scenes/Grid_F.unity
-    guid: 6f3573494f57a29468de6c6d9b2d4483
   - enabled: 1
     path: Assets/Scenes/Mini Games/Barrier Buster.unity
     guid: 087b9622a33a57e4b99b2886a8abde68

@@ -18,6 +18,7 @@ public class StartMenu : MonoBehaviour
     void Start()
     {
         Application.targetFrameRate = 120;
+        //string date = System.DateTime.UtcNow.ToLocalTime().ToString();
         MenuEffectsRandom.GetChild(Random.Range(0, MenuEffectsRandom.transform.childCount)).gameObject.SetActive(true);
         switch (PlayerPrefs.GetInt("QualitySetting"))
         {

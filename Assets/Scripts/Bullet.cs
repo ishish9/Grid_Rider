@@ -10,14 +10,24 @@ public class Bullet : MonoBehaviour
         if (hitbox.gameObject.CompareTag("CubeWall"))
         {
             AudioManager.Instance.PlaySoundEffects(ScriptableAudioClips.BulletImpact);
-            Instantiate(bulletexplode, transform.position, Quaternion.identity);
+            GameObject bulletImpactPool = ObjectPool.instance.GetPooledObjectBulletImpactEffect();
+            if (bulletImpactPool != null)
+            {
+                bulletImpactPool.transform.position = transform.position;
+                bulletImpactPool.SetActive(true);
+            }
             gameObject.SetActive(false);
         }
 
         if (hitbox.gameObject.CompareTag("CubeCollect"))
         {
             AudioManager.Instance.PlaySoundEffects(ScriptableAudioClips.BulletImpact);
-            Instantiate(bulletexplode, transform.position, Quaternion.identity);
+            GameObject bulletImpactPool = ObjectPool.instance.GetPooledObjectBulletImpactEffect();
+            if (bulletImpactPool != null)
+            {
+                bulletImpactPool.transform.position = transform.position;
+                bulletImpactPool.SetActive(true);
+            }
             gameObject.SetActive(false);
         }
     }   

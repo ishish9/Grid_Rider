@@ -9,7 +9,10 @@ public class FinishLine : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        Finish!.Invoke();
+        if (other.gameObject.CompareTag("Player"))
+        {
+            Finish!.Invoke();
+        }
     }
 }
 

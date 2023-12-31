@@ -151,17 +151,16 @@ public class Controller : MonoBehaviour
         //Vector2 moveVector = actionsWrapper.Player.Move.ReadValue<Vector2>();
 
         // Move Player Forward
-        if (!isLevel_F && MovementAllowed)
+        if (!isLevel_F && MovementAllowed && !SlowDownSpeed)
         {
             transform.position += new Vector3(0, 0, ForwardSpeed * Time.deltaTime);
         }
-
-        if (SlowDownSpeed)
+        else if (SlowDownSpeed)
         {
-            elapsedTime += Time.deltaTime;
-            float pc = elapsedTime / desiredDuration;
-            transform.position += new Vector3(0, 0, Mathf.Lerp(speedStart, speedEnd, Mathf.SmoothStep(0,1, pc)));
+            transform.position += new Vector3(0, 0, ForwardSpeed = Mathf.Lerp(ForwardSpeed, 0 , 1) );
+
         }
+
     }
 
     // On Screen Controls
@@ -217,6 +216,7 @@ public class Controller : MonoBehaviour
     public void SlowSpeedStop()
     {
         SlowDownSpeed = true;
+        //ForwardSpeed = Mathf.Lerp(ForwardSpeed* Time.deltaTime, 0* Time.deltaTime, 1);
     }
     public void StartPlayer()
     {

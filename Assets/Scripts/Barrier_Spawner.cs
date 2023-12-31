@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Barrier_Spawner : MonoBehaviour
 {
+    public HealthBar healthBar;
     [SerializeField] private GameObject HealthBarrierPrefab;
     [SerializeField] private GameObject[] BarriersPrefabs;
     [SerializeField] private Transform[] SpawnPositions;
@@ -13,7 +14,6 @@ public class Barrier_Spawner : MonoBehaviour
     public static float TimeBetweenSpawns = 3;
     public static float SpawnSpeed = 3;
     private int healthNumber;
-    private bool HealthAvailable = true;
     private bool TimeRunning = true;
     private List <GameObject> Parent = new List <GameObject>();
     
@@ -32,7 +32,7 @@ public class Barrier_Spawner : MonoBehaviour
                 AudioManager.Instance.PlaySoundEffects(SpawnSoundClip);
                 healthNumber = Random.Range(0, 15);
 
-                if (healthNumber == 1)
+                if (healthBar.GetCurrentHealth() <= 51)
                 {
                     HealthSpawn();
                 }
@@ -47,10 +47,14 @@ public class Barrier_Spawner : MonoBehaviour
 
     private void HealthSpawn()
     {
-        if (healthNumber == 1 && HealthAvailable)
+        if (healthNumber == 1)
         {
-            HealthAvailable = false;
             var child = Instantiate(HealthBarrierPrefab, SpawnPositions[Random.Range(0, SpawnPositions.Length)].position, Quaternion.identity);
+            Parent.Add(child);
+        }
+        else
+        {
+            var child = Instantiate(BarriersPrefabs[Random.Range(0, BarriersPrefabs.Length)], SpawnPositions[Random.Range(0, SpawnPositions.Length)].position, Quaternion.identity);
             Parent.Add(child);
         }
     }

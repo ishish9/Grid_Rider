@@ -14,7 +14,9 @@ public class Menu : MonoBehaviour
     [SerializeField] private Button highButton;
     [SerializeField] private Button veryHighButton;
     ActionMap_1 actionsWrapper2;
+    [Header("Note: Make Event Select Menu 'No' Button ")]
     public UnityEvent PausePlayerEvent;
+    [Header("Note: Make Event Select 'Restart' Button ")]
     public UnityEvent UnPausePlayerEvent;
     public UnityEvent SelectMenuButton;
     [SerializeField] private bool MainMenu;
@@ -120,14 +122,9 @@ public class Menu : MonoBehaviour
             menuUI.gameObject.SetActive(false);
             UnPausePlayerEvent.Invoke();
         }
-    }
+    } 
 
-    public void ExitApp()
-    {
-        Application.Quit();
-    }
-
-    // Highlights currently graphics settings button
+    // Highlights button of currently selected graphics settings.
     public void SelectGraphicsButton()
     {
         switch (PlayerPrefs.GetInt("QualitySetting"))
@@ -146,6 +143,7 @@ public class Menu : MonoBehaviour
                 break;
         }
     }
+
     public void LowSetting()
     {
         PostPross.SetActive(false);
@@ -176,5 +174,10 @@ public class Menu : MonoBehaviour
         QualitySettings.SetQualityLevel(3, true);
         PlayerPrefs.SetInt("QualitySetting", 3);
         PlayerPrefs.Save();
+    }
+
+    public void ExitApp()
+    {
+        Application.Quit();
     }
 }

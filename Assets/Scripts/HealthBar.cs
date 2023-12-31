@@ -54,4 +54,9 @@ public class HealthBar : MonoBehaviour
             AfterDeathEvent1.Invoke();
         }
     }
+
+    public float GetCurrentHealth()
+    {
+        return healthAmount;
+    }
 }

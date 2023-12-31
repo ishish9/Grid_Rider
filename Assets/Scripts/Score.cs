@@ -140,7 +140,8 @@ public class Score : MonoBehaviour
         
         if (CurrentScore > HighScore)
         {
-            submit_score.SetActive(true);
+            // Uncommit to enable score submission.
+            //submit_score.SetActive(true);
             HighScore = CurrentScore;
             SBHigh_Display.text = CurrentScore.ToString();
             if (MiniGames)
@@ -170,7 +171,7 @@ public class Score : MonoBehaviour
                     break;
                 case "BarrierToEntry":
                     PlayerPrefs.SetInt("HighScoreBarrierToEntry", HighScore);
-                    break;
+                    break;                             
                 case "Faster":
                     PlayerPrefs.SetInt("HighScoreFaster", HighScore);
                     break;

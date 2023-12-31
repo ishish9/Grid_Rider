@@ -65,7 +65,7 @@ public class CountDown : MonoBehaviour
                 {
                     yield return new WaitForSeconds(1.5f);
                     ScoreBoard.SetActive(true);
-                    switch (script3.GetAdCount(0))
+                    switch (script3.GetAdCount())
                     {
                         case 3:
                             script4.LoadInterstitialAd();

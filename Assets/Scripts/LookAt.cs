@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class LookAt : MonoBehaviour
 {
-    [SerializeField] private Transform eye;
+    [SerializeField] private Transform Target;
 
     // Update is called once per frame
     void Update()
     {
-        transform.LookAt(eye);
+        transform.LookAt(Target);
     }
 }

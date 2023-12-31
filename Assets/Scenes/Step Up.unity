@@ -56701,10 +56701,14 @@ MonoBehaviour:
   menuUI: {fileID: 3321179930507589487}
   GraphicsUI: {fileID: 630074572}
   PostPross: {fileID: 832575517}
+  lowButton: {fileID: 659244225}
+  mediumButton: {fileID: 1076329536}
+  highButton: {fileID: 1812095892}
+  veryHighButton: {fileID: 0}
   PausePlayerEvent:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 2069843490}
         m_TargetAssemblyTypeName: Controller, Assembly-CSharp
         m_MethodName: OnDisable
         m_Mode: 1
@@ -56731,7 +56735,19 @@ MonoBehaviour:
   UnPausePlayerEvent:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 2069843490}
+        m_TargetAssemblyTypeName: Controller, Assembly-CSharp
+        m_MethodName: OnEnable
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1771215991}
         m_TargetAssemblyTypeName: Controller, Assembly-CSharp
         m_MethodName: OnEnable
         m_Mode: 1

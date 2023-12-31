@@ -21,12 +21,12 @@ public class AdMob : MonoBehaviour
 
     public void AdMobCounter()
     {
-        AdCounter = AdCounter + 1;
+        AdCounter += 1;
     }
 
-    public int GetAdCount(int v)
+    public int GetAdCount()
     {
-        return v + AdCounter;
+        return AdCounter;
     }   
 
     public void ResetCounter()

@@ -84,7 +84,7 @@ public class CountDown2 : MonoBehaviour
                     ScoreBoard.SetActive(true);
                     RestartButton.SetActive(true);
                     script3.AdMobCounter();
-                    switch (script3.GetAdCount(0))
+                    switch (script3.GetAdCount())
                     {
                         case 3:
                             script4.LoadInterstitialAd();
@@ -139,7 +139,7 @@ public class CountDown2 : MonoBehaviour
         light.SetActive(true);
         Player.position = RespawnPosition.position;
 
-        if(Control2)
+        if (Control2)
         {
             control2.MovementStep = 0;
         }
