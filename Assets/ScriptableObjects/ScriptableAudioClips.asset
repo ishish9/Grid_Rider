@@ -18,6 +18,7 @@ MonoBehaviour:
   Rotate: {fileID: 8300000, guid: 748c1d608e599e0489a52eda25173d59, type: 3}
   Collision: {fileID: 8300000, guid: eaef38fd04fe44840978a297fcb4c90e, type: 3}
   Jump: {fileID: 8300000, guid: 67fc13c57a6c52947a4de15035a59d43, type: 3}
+  JumpReturnToGround: {fileID: 8300000, guid: ff495996b1941d94fb4e2c8ae8b063f9, type: 3}
   ShotFired: {fileID: 8300000, guid: dbafcffd67afd3a4fba50c9ba0c8cc18, type: 3}
   BulletImpact: {fileID: 8300000, guid: 6c557d6b4c4b38448896b64147d1a394, type: 3}
   BarrierHit: {fileID: 8300000, guid: 17767640202a1454bb056a8a05a10d6e, type: 3}

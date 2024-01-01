@@ -3,14 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using GoogleMobileAds;
 using GoogleMobileAds.Api;
-using UnityEngine.XR;
 
 public class InterstitialAdScript : MonoBehaviour
 {
 #if UNITY_ANDROID
   private string _adUnitId = "ca-app-pub-8112362826692397/2840496114";
 #elif UNITY_IPHONE
-  private string _adUnitId = "ca-app-pub-3940256099942544/4411468910";
+  private string _adUnitId = "ca-app-pub-8112362826692397/6505242446";
 #else
     private string _adUnitId = "unused";
 #endif

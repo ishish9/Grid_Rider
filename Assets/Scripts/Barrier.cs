@@ -17,7 +17,6 @@ public class Barrier : MonoBehaviour
         AudioManager.Instance.PlaySoundEffects(ScriptableAudioClips.BarrierHit);
         if (Health <= 0)
         {
-            ///
             AudioManager.Instance.PlaySoundEffects(ScriptableAudioClips.BarrierDestroyed);
             Instantiate(BarrierDestroyedEffect, transform.position, Quaternion.identity);
 
@@ -55,23 +54,23 @@ public class Barrier : MonoBehaviour
         switch (BarrierColor)
         {
             case "Green":
-                Health = 3;
+                Health = 2;
                 break;
 
             case "Yellow":
-                Health = 5;
+                Health = 4;
                 break;
 
             case "Orange":
-                Health = 10;
+                Health = 6;
                 break;
 
             case "Red":
-                Health = 15;
+                Health = 8;
                 break;
 
             case "Purple":
-                Health = 20;
+                Health = 9;
                 break;
         }
     }

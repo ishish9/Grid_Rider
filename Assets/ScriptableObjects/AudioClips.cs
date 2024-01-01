@@ -11,6 +11,7 @@ public class AudioClips : ScriptableObject
     public AudioClip Rotate;
     public AudioClip Collision;
     public AudioClip Jump;
+    public AudioClip JumpReturnToGround;
 
     [Header("Bullet AudioClips")]
     public AudioClip ShotFired;
@@ -25,8 +26,4 @@ public class AudioClips : ScriptableObject
     public GameObject GetClockEffect;
     public int ClockTimeCustom;
      
-
-
-
-
 }

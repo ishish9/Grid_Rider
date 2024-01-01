@@ -7,12 +7,12 @@ public class Laser : MonoBehaviour
     public delegate void Damage(float d);
     public static event Damage OnLaserDamage;
 
-    private void OnTriggerEnter(Collider collision)
+    private void OnTriggerEnter(Collider collider)
     {
-        OnLaserDamage(34);
-
-        if (collision.CompareTag("Player"))
+        if (collider.CompareTag("Player"))
         {
+            OnLaserDamage(34);
+
             for (int j = 0; j < parentTransform.childCount; j++)
             {
                 parentTransform.GetChild(j).gameObject.GetComponent<Collider>().enabled = false;               

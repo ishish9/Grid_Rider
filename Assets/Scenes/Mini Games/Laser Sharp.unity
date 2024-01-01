@@ -199,8 +199,8 @@ Canvas:
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
-  m_VertexColorAlwaysGammaSpace: 0
-  m_AdditionalShaderChannelsFlag: 25
+  m_VertexColorAlwaysGammaSpace: 1
+  m_AdditionalShaderChannelsFlag: 1
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
   m_SortingOrder: 1
@@ -1818,7 +1818,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -4323,6 +4323,30 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1835432029}
+        m_TargetAssemblyTypeName: Score, Assembly-CSharp
+        m_MethodName: ScoreBoard
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1146376871}
+        m_TargetAssemblyTypeName: UnityEngine.UI.Selectable, UnityEngine.UI
+        m_MethodName: Select
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   InstantAfterDeathEvent:
     m_PersistentCalls:
       m_Calls:
@@ -6126,7 +6150,7 @@ MonoBehaviour:
   script4: {fileID: 0}
   script2: {fileID: 330585548}
   script6: {fileID: 0}
-  script3: {fileID: 0}
+  script3: {fileID: 1835432029}
   LevelStartSound: {fileID: 8300000, guid: 2aac3f62f3d8e8e4395227dc95168032, type: 3}
   LevelMusic: {fileID: 8300000, guid: ddc2b25ac33ca134f89b9347891761e1, type: 3}
   qualityLevelLowOBJ: {fileID: 832575517}
@@ -7053,7 +7077,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   FX: {fileID: 3365853034859445910, guid: 5203fa119706a664e8eefc9330ccd8a0, type: 3}
   Bullet: {fileID: 0}
+  BulletImpactEffect: {fileID: 0}
   isBulletPool: 0
+  isBulletImpactEffectPooled: 0
 --- !u!4 &1753950192
 Transform:
   m_ObjectHideFlags: 0
@@ -7239,7 +7265,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -100, y: -100}
   m_SizeDelta: {x: 300, y: 200}
   m_Pivot: {x: 1, y: 1}
 --- !u!114 &1835432026
@@ -7338,14 +7364,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SBHigh_Display: {fileID: 465550874}
   SBHigh_Submit_Display: {fileID: 0}
-  SB_Display: {fileID: 426700313}
+  SB_Display: {fileID: 1119429692}
   Input: {fileID: 0}
   submit_score: {fileID: 0}
   empty: {fileID: 0}
   scoreboard: {fileID: 0}
   HighScoreSubmit: {fileID: 0}
   script1: {fileID: 1422001786}
-  HighScore: 0
   MiniGames: 1
 --- !u!1 &1882618312
 GameObject:
@@ -19083,8 +19108,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 2, y: 2, z: 2}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 1.5, z: 1}
+  m_Center: {x: 0, y: -0.25, z: 0}
 --- !u!114 &4283714563394854525
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20566,7 +20591,7 @@ CharacterController:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Height: 1
   m_Radius: 0.5

@@ -18,7 +18,7 @@ public class Score : MonoBehaviour
     public delegate void ScoreEvent(int s);
     public static event ScoreEvent OnScoreChange;
     private int CurrentScore = 0;
-    public int HighScore = 0;
+    private int HighScore = 0;
     private int leaderboardID = 12679;
     private string nameSubmit;
     [SerializeField] private bool MiniGames;

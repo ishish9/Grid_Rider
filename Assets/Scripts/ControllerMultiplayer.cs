@@ -115,8 +115,8 @@ public class ControllerMultiplayer : MonoBehaviour
             PlayerIsGrounded = false;
             if (context.started)
             {
-                Debug.Log("Pressed");
                 JumpTime = JumpStartTime;
+                AudioManager.Instance.PlaySoundEffects(ScriptableAudioClips.Jump);
                 rb.AddForce(new Vector3(0, JumpSpeed, 0), ForceMode.Impulse);
             }
         }       
@@ -203,10 +203,11 @@ public class ControllerMultiplayer : MonoBehaviour
             AudioManager.Instance.PlaySoundEffects(ScriptableAudioClips.Collision);
             Instantiate(spark, transform.position, Quaternion.identity);
         }
-        // Ground Check for Jumping
 
+        // Ground Check for Jumping
         if (collision.gameObject.tag == "Ground")
         {
+            AudioManager.Instance.PlaySoundEffects(ScriptableAudioClips.JumpReturnToGround);
             PlayerIsGrounded = true;
             if (HasJumped == true)
             {

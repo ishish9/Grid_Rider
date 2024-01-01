@@ -11,6 +11,6 @@ public class LaserGrid_Mover : MonoBehaviour
 
     private void Start()
     {
-        Destroy(gameObject, 4);
+        Destroy(gameObject, 6);
     }
 }

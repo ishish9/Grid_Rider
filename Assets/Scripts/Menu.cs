@@ -127,20 +127,27 @@ public class Menu : MonoBehaviour
     // Highlights button of currently selected graphics settings.
     public void SelectGraphicsButton()
     {
-        switch (PlayerPrefs.GetInt("QualitySetting"))
+        if (PlayerPrefs.GetInt("PlayerHasSetQualityLevel") == 1)
         {
-            case 0:
-                lowButton.Select();
-                break;
-            case 1:
-                mediumButton.Select();
-                break;
-            case 2:
-                highButton.Select();
-                break;
-            case 3:
-                veryHighButton.Select();
-                break;
+            switch (PlayerPrefs.GetInt("QualitySetting"))
+            {
+                case 0:
+                    lowButton.Select();
+                    break;
+                case 1:
+                    mediumButton.Select();
+                    break;
+                case 2:
+                    highButton.Select();
+                    break;
+                case 3:
+                    veryHighButton.Select();
+                    break;
+            }
+        }
+        else
+        {
+            mediumButton.Select();
         }
     }
 
@@ -148,6 +155,7 @@ public class Menu : MonoBehaviour
     {
         PostPross.SetActive(false);
         QualitySettings.SetQualityLevel(0, true);
+        PlayerPrefs.SetInt("PlayerHasSetQualityLevel", 1);
         PlayerPrefs.SetInt("QualitySetting", 0);
         PlayerPrefs.Save();
     }
@@ -156,6 +164,7 @@ public class Menu : MonoBehaviour
     {
         PostPross.SetActive(true);
         QualitySettings.SetQualityLevel(1, true);
+        PlayerPrefs.SetInt("PlayerHasSetQualityLevel", 1);
         PlayerPrefs.SetInt("QualitySetting", 1);
         PlayerPrefs.Save();
     }
@@ -164,6 +173,7 @@ public class Menu : MonoBehaviour
     {
         PostPross.SetActive(true);
         QualitySettings.SetQualityLevel(2, true);
+        PlayerPrefs.SetInt("PlayerHasSetQualityLevel", 1);
         PlayerPrefs.SetInt("QualitySetting", 2);
         PlayerPrefs.Save();
     }
@@ -172,6 +182,7 @@ public class Menu : MonoBehaviour
     {
         PostPross.SetActive(true);
         QualitySettings.SetQualityLevel(3, true);
+        PlayerPrefs.SetInt("PlayerHasSetQualityLevel", 1);
         PlayerPrefs.SetInt("QualitySetting", 3);
         PlayerPrefs.Save();
     }

@@ -659,8 +659,8 @@ Canvas:
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
-  m_VertexColorAlwaysGammaSpace: 0
-  m_AdditionalShaderChannelsFlag: 25
+  m_VertexColorAlwaysGammaSpace: 1
+  m_AdditionalShaderChannelsFlag: 1
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
   m_SortingOrder: 1
@@ -95478,7 +95478,6 @@ MonoBehaviour:
   scoreboard: {fileID: 1926430487}
   HighScoreSubmit: {fileID: 512563863}
   script1: {fileID: 1422001786}
-  HighScore: 0
   MiniGames: 0
 --- !u!114 &2079610146
 MonoBehaviour:

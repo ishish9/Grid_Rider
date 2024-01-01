@@ -20,21 +20,24 @@ public class StartMenu : MonoBehaviour
         Application.targetFrameRate = 120;
         //string date = System.DateTime.UtcNow.ToLocalTime().ToString();
         MenuEffectsRandom.GetChild(Random.Range(0, MenuEffectsRandom.transform.childCount)).gameObject.SetActive(true);
-        switch (PlayerPrefs.GetInt("QualitySetting"))
+        if (PlayerPrefs.GetInt("PlayerHasSetQualityLevel") == 1)
         {
-            case 0:
-                menu.LowSetting();
-                qualityLevelLowOBJ.SetActive(false);
-                break;
-            case 1:
-                menu.MediumSetting();
-                break;
-            case 2:
-                menu.HighSetting();
-                break;
-            case 3:
-                menu.VeryHighSetting();
-                break;
+            switch (PlayerPrefs.GetInt("QualitySetting"))
+            {
+                case 0:
+                    menu.LowSetting();
+                    qualityLevelLowOBJ.SetActive(false);
+                    break;
+                case 1:
+                    menu.MediumSetting();
+                    break;
+                case 2:
+                    menu.HighSetting();
+                    break;
+                case 3:
+                    menu.VeryHighSetting();
+                    break;
+            }
         }
 
         if (PlayerPrefs.GetInt("UserSetMusicSetting") == 0)
