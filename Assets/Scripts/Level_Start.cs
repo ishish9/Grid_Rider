@@ -80,9 +80,12 @@ public class Level_Start : MonoBehaviour
                 break;
         }
 
-        if (PlayerPrefs.GetInt("QualitySetting") == 0)
+        if (PlayerPrefs.GetInt("PlayerHasSetQualityLevel") == 1)
         {
-            qualityLevelLowOBJ.SetActive(false);
+            if (PlayerPrefs.GetInt("QualitySetting") == 0)
+            {
+                qualityLevelLowOBJ.SetActive(false);
+            }
         }
 
         if (isLevelE)
