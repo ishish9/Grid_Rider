@@ -29,12 +29,12 @@ static Il2CppMethodPointer s_methodPointers[6] =
 };
 static const int32_t s_InvokerIndices[6] = 
 {
-	18855,
-	10859,
-	10859,
-	8554,
-	10859,
-	10859,
+	18808,
+	10819,
+	10819,
+	8521,
+	10819,
+	10819,
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Febucci_Attributes_Runtime_CodeGenModule;
 const Il2CppCodeGenModule g_Febucci_Attributes_Runtime_CodeGenModule = 

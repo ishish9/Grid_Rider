@@ -243,6 +243,52 @@ public class LevelChangeManager : MonoBehaviour
                     Level_Display.enabled = false;
                 }
                 break;
+
+            case 110:
+                AudioManager.Instance.PlaySoundEffects(LevelChangeClip);
+                if (LaserSharp)
+                {
+                    LaserGridSpawner.SpawnSpeed = 4;
+                    LaserGrid_Mover.ForwardSpeed = 9;
+                }
+                else
+                {
+                    Barrier_Spawned.BarrierSpeed = .4f;
+                    Barrier_Spawner.SpawnSpeed = .8f;
+                }
+                Level_Display.text = "Level 11";
+                Level_Display.enabled = true;
+                StartCoroutine(wait10());
+
+                IEnumerator wait10()
+                {
+                    yield return new WaitForSeconds(2f);
+                    Level_Display.enabled = false;
+                }
+                break;
+
+            case 120:
+                AudioManager.Instance.PlaySoundEffects(LevelChangeClip);
+                if (LaserSharp)
+                {
+                    LaserGridSpawner.SpawnSpeed = 4;
+                    LaserGrid_Mover.ForwardSpeed = 10;
+                }
+                else
+                {
+                    Barrier_Spawned.BarrierSpeed = .3f;
+                    Barrier_Spawner.SpawnSpeed = .8f;
+                }
+                Level_Display.text = "Level 12";
+                Level_Display.enabled = true;
+                StartCoroutine(wait11());
+
+                IEnumerator wait11()
+                {
+                    yield return new WaitForSeconds(2f);
+                    Level_Display.enabled = false;
+                }
+                break;
         }
     }
 }
