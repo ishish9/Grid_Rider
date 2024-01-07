@@ -128,7 +128,6 @@ public class ControllerMultiplayer : MonoBehaviour
         {         
             if (context.canceled)
             {
-                Debug.Log("Continue Press");               
                 rb.AddForce(new Vector3(0, JumpEndSpeed, 0), ForceMode.Impulse);        
             }
         }
@@ -150,8 +149,8 @@ public class ControllerMultiplayer : MonoBehaviour
         if (PlayerIsGrounded)
         {
             PlayerIsGrounded = false;         
-            Debug.Log("Pressed");
             JumpTime = JumpStartTime;
+            AudioManager.Instance.PlaySoundEffects(ScriptableAudioClips.Jump);
             rb.AddForce(new Vector3(0, JumpSpeed, 0), ForceMode.Impulse);           
         }
     }
@@ -159,7 +158,6 @@ public class ControllerMultiplayer : MonoBehaviour
     {
         if (!PlayerIsGrounded)
         {          
-             Debug.Log("Continue Press");
              rb.AddForce(new Vector3(0, JumpEndSpeed, 0), ForceMode.Impulse);           
         }
     }

@@ -5281,7 +5281,7 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_VertexColorAlwaysGammaSpace: 1
-  m_AdditionalShaderChannelsFlag: 1
+  m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
   m_SortingOrder: 1
@@ -7517,7 +7517,7 @@ MonoBehaviour:
         m_MethodName: PlaySoundEffects
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 8300000, guid: 0c76597ca48b8454f9b2d8d9f65efa5d,
+          m_ObjectArgument: {fileID: 8300000, guid: 908dec23b7f2d5b43b00c57d9a4423e0,
             type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
           m_IntArgument: 0
@@ -30528,18 +30528,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: Barrier_Spawner, Assembly-CSharp
-        m_MethodName: 
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!114 &1196523276
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31503,7 +31491,7 @@ MonoBehaviour:
   - {fileID: 2104055689}
   - {fileID: 1131389095}
   - {fileID: 1155525407}
-  SpawnSoundClip: {fileID: 8300000, guid: 52557ae3dc12f0a4eaad052b212e838e, type: 3}
+  SpawnSoundClip: {fileID: 8300000, guid: e1a982b97ba565e4597e23efad9e5109, type: 3}
   RestartClip: {fileID: 8300000, guid: 2aac3f62f3d8e8e4395227dc95168032, type: 3}
   impact: {fileID: 2093410529}
 --- !u!1 &1307990840
@@ -47825,7 +47813,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Level_Display: {fileID: 1307990842}
-  LevelChangeClip: {fileID: 8300000, guid: f7c07f81901cbab4c9cad404475a736c, type: 3}
+  LevelChangeClip: {fileID: 8300000, guid: b4a73bd44ad97a7488b1973513732a68, type: 3}
   LaserSharp: 0
 --- !u!1 &2009885530
 GameObject:
@@ -48543,7 +48531,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d9e44b151ef5f744a3675766d1c761c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PauseClip: {fileID: 8300000, guid: 1be1e1ac1be70d345b0d24a627ce343c, type: 3}
+  audioClips: {fileID: 11400000, guid: 6cb2c5d80d005804a9735b2cb6d652ce, type: 2}
   menuUI: {fileID: 3321179930507589487}
   GraphicsUI: {fileID: 630074572}
   PostPross: {fileID: 832575517}

@@ -6,9 +6,6 @@ using TMPro;
 public class CountDown2 : MonoBehaviour
 {
     [SerializeField] private TextMeshProUGUI CountDownText;
-    [SerializeField] private AudioClip RestartClip;
-    [SerializeField] private AudioClip HoverClip;
-    [SerializeField] private AudioClip DeathClip;
     [SerializeField] private GameObject TimeoutDisplay;
     [SerializeField] private MeshRenderer PlayerOBJ;
     [SerializeField] private MeshRenderer Player_Core;
@@ -39,6 +36,7 @@ public class CountDown2 : MonoBehaviour
     [SerializeField] private CameraControls script6;
     [SerializeField] private Death_Trigger script7;
     [SerializeField] private ObjectPool_Enemy script8;
+    [SerializeField] private AudioClips audioClips;
     [SerializeField] private bool CustomRestartSpeed;
     [SerializeField] private float RestartSpeedCustom;
     public UnityEvent PausePlayerEvent;
@@ -65,7 +63,7 @@ public class CountDown2 : MonoBehaviour
                 PausePlayerEvent.Invoke();
                 timerIsRunning = false;
                 timeRemaining = 0;
-                AudioManager.Instance.PlaySoundEffects(DeathClip);
+                AudioManager.Instance.PlaySoundEffects(audioClips.Death);
                 AudioManager.Instance.StopLoopedEffects();
                 AudioManager.Instance.MusicOff();
                 if (Control3)
@@ -118,8 +116,8 @@ public class CountDown2 : MonoBehaviour
         UnPausePlayerEvent.Invoke();
         AudioManager.Instance.HoverPitchChange(1f);
         AudioManager.Instance.MasterVolumeControl(0.9f);
-        AudioManager.Instance.PlaySoundEffectsLooped1(HoverClip);
-        AudioManager.Instance.PlaySoundEffects(RestartClip);
+        AudioManager.Instance.PlaySoundEffectsLooped1(audioClips.Hover);
+        AudioManager.Instance.PlaySoundEffects(audioClips.LevelStartRestartSound);
         script8.ResetPool();
         Heart_Empty1.SetActive(false);
         Heart_Empty2.SetActive(false);

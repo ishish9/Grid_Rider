@@ -51224,9 +51224,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CountDownText: {fileID: 707620431}
-  RestartClip: {fileID: 8300000, guid: 2aac3f62f3d8e8e4395227dc95168032, type: 3}
-  HoverClip: {fileID: 8300000, guid: c83e7428a1ac24d4d9d5e9d5aff5939c, type: 3}
-  DeathClip: {fileID: 8300000, guid: 1226660124c5bfe4f90a90aea478cb32, type: 3}
   TimeoutDisplay: {fileID: 758354952}
   PlayerOBJ: {fileID: 1941844117}
   Player_Core: {fileID: 5906883658372690519}
@@ -51248,6 +51245,7 @@ MonoBehaviour:
   script2: {fileID: 2079610145}
   script3: {fileID: 1973824682}
   script4: {fileID: 1437656594}
+  audioClips: {fileID: 11400000, guid: 6cb2c5d80d005804a9735b2cb6d652ce, type: 2}
   script5: {fileID: 1308613227}
   script6: {fileID: 330585548}
   time: 15
@@ -57331,7 +57329,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d9e44b151ef5f744a3675766d1c761c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PauseClip: {fileID: 8300000, guid: 1be1e1ac1be70d345b0d24a627ce343c, type: 3}
+  audioClips: {fileID: 11400000, guid: 6cb2c5d80d005804a9735b2cb6d652ce, type: 2}
   menuUI: {fileID: 7498880018022289399}
   GraphicsUI: {fileID: 630074572}
   PostPross: {fileID: 832575517}

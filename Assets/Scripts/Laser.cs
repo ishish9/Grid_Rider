@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class Laser : MonoBehaviour
 {
-    [SerializeField] private AudioClip LaserHitClip;
+    [SerializeField] private AudioClips audioClips;
     [SerializeField] private Transform parentTransform;
     public delegate void Damage(float d);
     public static event Damage OnLaserDamage;
@@ -17,7 +17,7 @@ public class Laser : MonoBehaviour
             {
                 parentTransform.GetChild(j).gameObject.GetComponent<Collider>().enabled = false;               
             }
-            AudioManager.Instance.PlaySoundEffects(LaserHitClip);
+            AudioManager.Instance.PlaySoundEffects(audioClips.LaserHit);
         }
     }
 }

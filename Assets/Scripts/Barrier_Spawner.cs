@@ -38,6 +38,7 @@ public class Barrier_Spawner : MonoBehaviour
                 }
                 else
                 {
+
                     var child = Instantiate(BarriersPrefabs[Random.Range(0, BarriersPrefabs.Length)], SpawnPositions[Random.Range(0, SpawnPositions.Length)].position, Quaternion.identity);
                     Parent.Add(child);
                 }

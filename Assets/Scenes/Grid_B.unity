@@ -17252,9 +17252,9 @@ ParticleSystem:
     enabled: 0
     curve:
       serializedVersion: 2
-      minMaxState: 1
+      minMaxState: 3
       scalar: 1
-      minScalar: 1
+      minScalar: 0.1
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -17305,7 +17305,7 @@ ParticleSystem:
         m_RotationOrder: 4
     y:
       serializedVersion: 2
-      minMaxState: 1
+      minMaxState: 3
       scalar: 1
       minScalar: 1
       maxCurve:
@@ -17358,7 +17358,7 @@ ParticleSystem:
         m_RotationOrder: 4
     z:
       serializedVersion: 2
-      minMaxState: 1
+      minMaxState: 3
       scalar: 1
       minScalar: 1
       maxCurve:
@@ -17411,7 +17411,7 @@ ParticleSystem:
         m_RotationOrder: 4
     separateAxes: 0
   RotationModule:
-    enabled: 0
+    enabled: 1
     x:
       serializedVersion: 2
       minMaxState: 0
@@ -17468,7 +17468,7 @@ ParticleSystem:
     y:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0
+      scalar: 1.5707963
       minScalar: 0
       maxCurve:
         serializedVersion: 2
@@ -17521,7 +17521,7 @@ ParticleSystem:
     curve:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0.7853982
+      scalar: 1.5707963
       minScalar: 0.7853982
       maxCurve:
         serializedVersion: 2
@@ -17571,7 +17571,7 @@ ParticleSystem:
         m_PreInfinity: 2
         m_PostInfinity: 2
         m_RotationOrder: 4
-    separateAxes: 0
+    separateAxes: 1
   ColorModule:
     enabled: 0
     gradient:
@@ -17581,8 +17581,8 @@ ParticleSystem:
       maxColor: {r: 1, g: 1, b: 1, a: 1}
       maxGradient:
         serializedVersion: 2
-        key0: {r: 1, g: 1, b: 1, a: 0}
-        key1: {r: 1, g: 1, b: 1, a: 1}
+        key0: {r: 0.8490566, g: 0, b: 0, a: 0}
+        key1: {r: 0.6981132, g: 0.49065503, b: 0.49065503, a: 1}
         key2: {r: 0, g: 0, b: 0, a: 0}
         key3: {r: 0, g: 0, b: 0, a: 0}
         key4: {r: 0, g: 0, b: 0, a: 0}
@@ -44607,9 +44607,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CountDownText: {fileID: 707620431}
-  RestartClip: {fileID: 8300000, guid: 2aac3f62f3d8e8e4395227dc95168032, type: 3}
-  HoverClip: {fileID: 8300000, guid: c83e7428a1ac24d4d9d5e9d5aff5939c, type: 3}
-  DeathClip: {fileID: 8300000, guid: 1226660124c5bfe4f90a90aea478cb32, type: 3}
   TimeoutDisplay: {fileID: 758354952}
   PlayerOBJ: {fileID: 5906883658372690519}
   Player_Core: {fileID: 1941844117}
@@ -44631,6 +44628,7 @@ MonoBehaviour:
   script2: {fileID: 2079610145}
   script3: {fileID: 1973824682}
   script4: {fileID: 1437656594}
+  audioClips: {fileID: 11400000, guid: 6cb2c5d80d005804a9735b2cb6d652ce, type: 2}
   script5: {fileID: 1308613227}
   script6: {fileID: 330585548}
   time: 20
@@ -50672,7 +50670,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d9e44b151ef5f744a3675766d1c761c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PauseClip: {fileID: 8300000, guid: 1be1e1ac1be70d345b0d24a627ce343c, type: 3}
+  audioClips: {fileID: 11400000, guid: 6cb2c5d80d005804a9735b2cb6d652ce, type: 2}
   menuUI: {fileID: 6406839263078878882}
   GraphicsUI: {fileID: 630074572}
   PostPross: {fileID: 832575517}

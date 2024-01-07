@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class Menu : MonoBehaviour
 {
-    [SerializeField] private AudioClip PauseClip;
+    [SerializeField] private AudioClips audioClips;
     [SerializeField] private GameObject menuUI;
     [SerializeField] private GameObject GraphicsUI;
     [SerializeField] private GameObject PostPross;
@@ -59,7 +59,7 @@ public class Menu : MonoBehaviour
         // Activates Menu //
         if (menuUI.activeSelf == false)
         {
-            AudioManager.Instance.PlaySoundEffects(PauseClip);
+            AudioManager.Instance.PlaySoundEffects(audioClips.MenuPause);
             GraphicsUI.SetActive(false);
             menuUI.gameObject.SetActive(true);
             AudioManager.Instance.MasterVolumeControl(0.4f);
@@ -82,7 +82,7 @@ public class Menu : MonoBehaviour
             {
                 AudioManager.Instance.MusicOn();
             }
-            AudioManager.Instance.PlaySoundEffects(PauseClip);
+            AudioManager.Instance.PlaySoundEffects(audioClips.MenuPause);
             AudioManager.Instance.MasterVolumeControl(0.9f);
             menuUI.gameObject.SetActive(false);
             UnPausePlayerEvent.Invoke();
@@ -94,7 +94,7 @@ public class Menu : MonoBehaviour
      // Activates Menu //
         if (menuUI.activeSelf == false)
         {
-            AudioManager.Instance.PlaySoundEffects(PauseClip);
+            AudioManager.Instance.PlaySoundEffects(audioClips.MenuPause);
             GraphicsUI.SetActive(false);
             menuUI.gameObject.SetActive(true);
             AudioManager.Instance.MasterVolumeControl(0.4f);
@@ -117,7 +117,7 @@ public class Menu : MonoBehaviour
                 {
                     AudioManager.Instance.MusicOn();
                 }
-            AudioManager.Instance.PlaySoundEffects(PauseClip);
+            AudioManager.Instance.PlaySoundEffects(audioClips.MenuPause);
             AudioManager.Instance.MasterVolumeControl(0.9f);
             menuUI.gameObject.SetActive(false);
             UnPausePlayerEvent.Invoke();

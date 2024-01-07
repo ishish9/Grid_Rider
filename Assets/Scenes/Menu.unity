@@ -6159,7 +6159,7 @@ MonoBehaviour:
         m_MethodName: PlaySoundEffects
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 8300000, guid: 80cd3439222824f4c81efd302e3b26b8,
+          m_ObjectArgument: {fileID: 8300000, guid: 61108aff45e1ffd4b8dcb157749ba239,
             type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
           m_IntArgument: 0
@@ -11744,7 +11744,7 @@ MonoBehaviour:
         m_MethodName: PlaySoundEffects
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 8300000, guid: 0dcf5622486fce346916bdce4788cf5a,
+          m_ObjectArgument: {fileID: 8300000, guid: 1917a0f2f6668f54a897a004a90e3289,
             type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
           m_IntArgument: 0
@@ -23413,19 +23413,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 3542873472095903081}
-        m_TargetAssemblyTypeName: AudioManager, Assembly-CSharp
-        m_MethodName: PlaySoundEffects
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 8300000, guid: 3a7a9342565812b438aa11b55ed6d3ef,
-            type: 3}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
       - m_Target: {fileID: 1865349890}
         m_TargetAssemblyTypeName: UnityEngine.ParticleSystem, UnityEngine
         m_MethodName: Play
@@ -23433,6 +23420,19 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 3542873472095903081}
+        m_TargetAssemblyTypeName: AudioManager, Assembly-CSharp
+        m_MethodName: PlaySoundEffects
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 8300000, guid: af86f28f6a36fe64f82dcbe8f010b709,
+            type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -30178,6 +30178,19 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 3542873472095903081}
+        m_TargetAssemblyTypeName: AudioManager, Assembly-CSharp
+        m_MethodName: PlaySoundEffects
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 8300000, guid: 61108aff45e1ffd4b8dcb157749ba239,
+            type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &828119725
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30644,7 +30657,7 @@ MonoBehaviour:
         m_MethodName: PlaySoundEffects
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 8300000, guid: 80cd3439222824f4c81efd302e3b26b8,
+          m_ObjectArgument: {fileID: 8300000, guid: 61108aff45e1ffd4b8dcb157749ba239,
             type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
           m_IntArgument: 0
@@ -30902,7 +30915,6 @@ GameObject:
   - component: {fileID: 882055806}
   - component: {fileID: 882055805}
   - component: {fileID: 882055804}
-  - component: {fileID: 882055807}
   m_Layer: 5
   m_Name: Back
   m_TagString: Untagged
@@ -31010,6 +31022,19 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 3542873472095903081}
+        m_TargetAssemblyTypeName: AudioManager, Assembly-CSharp
+        m_MethodName: PlaySoundEffects
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 8300000, guid: 61108aff45e1ffd4b8dcb157749ba239,
+            type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &882055805
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31048,53 +31073,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 882055802}
   m_CullTransparentMesh: 1
---- !u!114 &882055807
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 882055802}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 9
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 3542873472095903081}
-          m_TargetAssemblyTypeName: AudioManager, Assembly-CSharp
-          m_MethodName: PlaySoundEffects
-          m_Mode: 2
-          m_Arguments:
-            m_ObjectArgument: {fileID: 8300000, guid: 359d873934ac1884ba041a37568885ac,
-              type: 3}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-  - eventID: 15
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 3542873472095903081}
-          m_TargetAssemblyTypeName: AudioManager, Assembly-CSharp
-          m_MethodName: PlaySoundEffects
-          m_Mode: 2
-          m_Arguments:
-            m_ObjectArgument: {fileID: 8300000, guid: 21a5c9cd8dbb23e429d011d67a3536d6,
-              type: 3}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
 --- !u!1 &888924496
 GameObject:
   m_ObjectHideFlags: 0
@@ -36229,7 +36207,7 @@ MonoBehaviour:
         m_MethodName: PlaySoundEffects
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 8300000, guid: 80cd3439222824f4c81efd302e3b26b8,
+          m_ObjectArgument: {fileID: 8300000, guid: 61108aff45e1ffd4b8dcb157749ba239,
             type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
           m_IntArgument: 0
@@ -42895,7 +42873,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d9e44b151ef5f744a3675766d1c761c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PauseClip: {fileID: 8300000, guid: 1be1e1ac1be70d345b0d24a627ce343c, type: 3}
+  audioClips: {fileID: 11400000, guid: 6cb2c5d80d005804a9735b2cb6d652ce, type: 2}
   menuUI: {fileID: 888924496}
   GraphicsUI: {fileID: 630074572}
   PostPross: {fileID: 832575517}
@@ -45082,7 +45060,7 @@ MonoBehaviour:
         m_MethodName: PlaySoundEffects
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 8300000, guid: 2e44bd33ee28f0c4895632c830404e91,
+          m_ObjectArgument: {fileID: 8300000, guid: 35bb449a08cb0b74b8fffdd6bce1eccf,
             type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
           m_IntArgument: 0
@@ -51856,7 +51834,7 @@ MonoBehaviour:
         m_MethodName: PlaySoundEffects
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 8300000, guid: 80cd3439222824f4c81efd302e3b26b8,
+          m_ObjectArgument: {fileID: 8300000, guid: 61108aff45e1ffd4b8dcb157749ba239,
             type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
           m_IntArgument: 0
@@ -57964,9 +57942,9 @@ SceneRoots:
   - {fileID: 14816169}
   - {fileID: 5522352898541896830}
   - {fileID: 408973589}
+  - {fileID: 191505711}
   - {fileID: 1865349891}
   - {fileID: 1756241926}
-  - {fileID: 191505711}
   - {fileID: 1973824683}
   - {fileID: 1437656595}
   - {fileID: 832575519}

@@ -12,19 +12,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90ad4028b4037b34dbb59989ea16bd5c, type: 3}
   m_Name: ScriptableAudioClips
   m_EditorClassIdentifier: 
-  Move: {fileID: 8300000, guid: cf1f05f6058e5804f9face48082892b1, type: 3}
+  Move: {fileID: 8300000, guid: af86f28f6a36fe64f82dcbe8f010b709, type: 3}
   ReachedEnd: {fileID: 8300000, guid: 4273f09704bebd94497b08951ac4987a, type: 3}
   Hover: {fileID: 8300000, guid: c83e7428a1ac24d4d9d5e9d5aff5939c, type: 3}
   Rotate: {fileID: 8300000, guid: 748c1d608e599e0489a52eda25173d59, type: 3}
   Collision: {fileID: 8300000, guid: eaef38fd04fe44840978a297fcb4c90e, type: 3}
-  Jump: {fileID: 8300000, guid: 67fc13c57a6c52947a4de15035a59d43, type: 3}
-  JumpReturnToGround: {fileID: 8300000, guid: ff495996b1941d94fb4e2c8ae8b063f9, type: 3}
-  ShotFired: {fileID: 8300000, guid: dbafcffd67afd3a4fba50c9ba0c8cc18, type: 3}
-  BulletImpact: {fileID: 8300000, guid: 6c557d6b4c4b38448896b64147d1a394, type: 3}
-  BarrierHit: {fileID: 8300000, guid: 17767640202a1454bb056a8a05a10d6e, type: 3}
-  BarrierDestroyed: {fileID: 8300000, guid: 08d48ac1c5bb30449a11551f5c5c1474, type: 3}
-  BarrierDestroyedMiniGame: {fileID: 8300000, guid: fdaef56912c6f834e84ec55002b35a20,
+  Jump: {fileID: 8300000, guid: 25db0a203c1dbca428413e3b8bb85799, type: 3}
+  JumpReturnToGround: {fileID: 8300000, guid: 825396c27671de84a83b90ea08cdb580, type: 3}
+  LevelStartRestartSound: {fileID: 8300000, guid: 2aac3f62f3d8e8e4395227dc95168032,
     type: 3}
+  Death: {fileID: 8300000, guid: 908dec23b7f2d5b43b00c57d9a4423e0, type: 3}
+  MenuPause: {fileID: 8300000, guid: 70b7595e74f2a12499e9a9691ee07b40, type: 3}
+  ShotFired: {fileID: 8300000, guid: d62bd7d4020d03243962ab4dcb51cc4f, type: 3}
+  BulletImpact: {fileID: 8300000, guid: 47f9bc3f363d1e54bae560872b4bb3c3, type: 3}
+  BarrierHit: {fileID: 8300000, guid: 35bb449a08cb0b74b8fffdd6bce1eccf, type: 3}
+  BarrierDestroyed: {fileID: 8300000, guid: 9ac4e1f3aaa32b8428967e9e8c934c9f, type: 3}
+  BarrierDestroyedMiniGame: {fileID: 8300000, guid: 5e808a636ab8c3840846503c103fbbd4,
+    type: 3}
+  LaserHit: {fileID: 8300000, guid: 09572afdfb33f4b4ca79ddbe4781dc70, type: 3}
+  LaserGridCleared: {fileID: 8300000, guid: a9423d37006e3714dbf4af1c35bf1db1, type: 3}
+  LaserGridSpawn: {fileID: 8300000, guid: 5bb8558c9eb9ebf4198e52d59d125bc0, type: 3}
   GetClockClip: {fileID: 8300000, guid: 1917a0f2f6668f54a897a004a90e3289, type: 3}
   GetClockEffect: {fileID: 275151289982795850, guid: 5c6c83fe4be6ba845883ea0ffc4a9ce9,
     type: 3}
