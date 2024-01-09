@@ -22,10 +22,14 @@ public class Level_Start : MonoBehaviour
         AudioManager.Instance.PlaySoundEffects(LevelStartSound);
         AudioManager.Instance.SetMusicClip(LevelMusic);
         // Find out if user has music set to OFF or ON and set that preference here.
-        if (PlayerPrefs.GetInt("musicOnOff") == 0)
+        if (PlayerPrefs.GetInt("UserSetMusicSetting") == 1)
         {
-            AudioManager.Instance.MusicOff();
-        }     
+            if (PlayerPrefs.GetInt("musicOnOff") == 0)
+            {
+                AudioManager.Instance.MusicOff();
+            }
+        }
+          
 
         if (isCountDown2)
         {

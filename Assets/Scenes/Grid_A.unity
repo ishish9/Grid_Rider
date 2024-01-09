@@ -7065,7 +7065,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44159e01d366d6348a61eddf66018df2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  boomClip: {fileID: 8300000, guid: 0d7f268ea97b51943be885bfb959f1fe, type: 3}
+  boomClip: {fileID: 8300000, guid: 4f58a5ac27f387a429c562034bb0108d, type: 3}
   fieldClip: {fileID: 8300000, guid: 68b8cf54901e53c4cb4f0dcddb0737f4, type: 3}
   alarmClip: {fileID: 8300000, guid: d40b8fb09b9ed1d4f84d8a53b8c9fd46, type: 3}
   EnableWarp: {fileID: 664555500}
@@ -77533,7 +77533,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44159e01d366d6348a61eddf66018df2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  boomClip: {fileID: 8300000, guid: 0d7f268ea97b51943be885bfb959f1fe, type: 3}
+  boomClip: {fileID: 8300000, guid: 4f58a5ac27f387a429c562034bb0108d, type: 3}
   fieldClip: {fileID: 8300000, guid: 68b8cf54901e53c4cb4f0dcddb0737f4, type: 3}
   alarmClip: {fileID: 8300000, guid: d40b8fb09b9ed1d4f84d8a53b8c9fd46, type: 3}
   EnableWarp: {fileID: 1445518812}

@@ -72,11 +72,11 @@ public class AudioManager : MonoBehaviour
         MusicSource.clip = clip;
         MusicSource.Play();
     }
+
     public void ToggleMusic()
     {
         PlayerPrefs.SetInt("UserSetMusicSetting", 1);
         MusicSource.mute = !MusicSource.mute;
-        MusicSource.Play();
         if (MusicSource.mute == true )
         {
             PlayerPrefs.SetInt("musicOnOff", 0);
@@ -94,12 +94,12 @@ public class AudioManager : MonoBehaviour
 
     public void MusicOn()
     {
-        MusicSource.Play();
+        MusicSource.mute = false;
     }
 
     public void MusicOff()
     {
-        MusicSource.Stop();
+        MusicSource.mute = true;
     }
 
     public void SoundEffectsOn()

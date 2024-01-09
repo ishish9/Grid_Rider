@@ -105910,9 +105910,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1308613227}
-        m_TargetAssemblyTypeName: Menu, Assembly-CSharp
-        m_MethodName: MusicToggle
+      - m_Target: {fileID: 4121316060246053528}
+        m_TargetAssemblyTypeName: AudioManager, Assembly-CSharp
+        m_MethodName: ToggleMusic
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
