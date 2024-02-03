@@ -184,6 +184,17 @@
                 },
                 {
                     "name": "",
+                    "id": "8c1bb958-3ac9-4040-a86f-3f76b5277c3a",
+                    "path": "<Gamepad>/leftStick/left",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Left",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "15801bc8-6377-4f76-9438-f6fbd08f849b",
                     "path": "<Keyboard>/rightArrow",
                     "interactions": "",
@@ -208,6 +219,17 @@
                     "name": "",
                     "id": "10fa0104-e68d-4643-b9f4-2834fe5e0974",
                     "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Right",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "66ad9c18-2bfd-405d-9922-5f139d18b43e",
+                    "path": "<Gamepad>/leftStick/right",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
